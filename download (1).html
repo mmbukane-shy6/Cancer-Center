@@ -1,0 +1,292 @@
+ 
+ 
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en-US"><![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="en-US"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+<head>    
+    <meta charset="UTF-8" />
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="pingback" href="https://onlinedegrees.bradley.edu/xmlrpc.php" /> 
+    <script>            
+            dataLayer = [{ "programCode": "BDU-SUITE","vertical" : "Combo","subVertical" : "Combo","educationLevel" : "Combo" , "pageType" : "blog", "gtmversion" : "2"}];            
+        </script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+' https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+})(window,document,'script','dataLayer','GTM-WFNKHG8');</script><!-- End Google Tag Manager --><!-- Start Visual Website Optimizer Asynchronous Code --><script type='text/javascript'> 
+var _vwo_code=(function(){ 
+var account_id=335743, 
+settings_tolerance=2000, 
+library_tolerance=2500, 
+use_existing_jquery=false, 
+/* DO NOT EDIT BELOW THIS LINE */ 
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init(); 
+</script><!-- End Visual Website Optimizer Asynchronous Code --><meta name="msvalidate.01" content="EC4B8DFA70DEDC5C667027BA292EF0E1" /><script>
+    document.addEventListener('DOMContentLoaded', function(){//set form question min-height with JS, no jquery needed
+        var $Qs = document.getElementsByClassName('form__inner__lead-form__question'); //get quesitons
+        if(typeof $Qs !== "undefined"){
+            var formQminheight = 0;
+            for (var i=0;i<$Qs.length;i++){ $Qs[i].style.display='block'; } //set questions to be visible            
+             var $formQWraps = document.getElementsByClassName('form__inner__lead-form__question__wrap');//get each question wrap
+             for (var i=0;i<$formQWraps.length;i++){         
+                var tempHeight = $formQWraps[i].clientHeight;
+                if (tempHeight > formQminheight) formQminheight=tempHeight;//if a question is the tallest question, set variable
+            }
+            if (formQminheight > 0 ) for (var i=0;i<$formQWraps.length;i++){$formQWraps[i].style.minHeight=formQminheight+"px";}//set min heights on each question
+            for (var i=0;i<$Qs.length;i++){$Qs[i].style.display='';}//remove display from questions
+        }
+        //lazy loading images on site
+        var lazyImages = [].slice.call(document.querySelectorAll("[data-lazy='1']"));// all lazy images or div backgrounds on the site have a data-lazy=1 attribute                
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && "IntersectionObserver" in window) {//lazy loading only loads on mobile, except blog archives will also lazy load if intersectionobserver is supported
+            let lazyImageObserver = new IntersectionObserver(function(entries, observer) {//create observer that watches for when divs and images intercept the viewport
+              entries.forEach(function(entry) {
+                if (entry.isIntersecting) {//when a new element enters viewport
+                  let lazyImage = entry.target;//get the variable of the element we can target
+                  lazyIntersect(lazyImage);//start the lazy load funciton
+                  lazyImageObserver.unobserve(lazyImage);//clean up observer once observed
+                }
+              });
+            },{rootMargin: '0px 0px 30px 0px',});//rootMargin makes images load before they hit the viewport
+            lazyImages.forEach(function(lazyImage) {//sets the ovserver on every image
+              lazyImageObserver.observe(lazyImage);
+            });
+         } else {//fallback for older browsers. Images are loaded regularly            
+             lazyImages.forEach(function(lazyImage) {//for every lazy image on site
+                  lazyIntersect(lazyImage);//set the image to be visible outside of viewport
+             });
+          }
+        function lazyIntersect(lazyImage){
+          //set all lazy load data attributes to be the actual html elements that will load image or background
+          if (lazyImage.hasAttribute("data-src"))lazyImage.src = lazyImage.dataset.src;
+          if (lazyImage.hasAttribute("data-srcset"))lazyImage.srcset = lazyImage.dataset.srcset;
+          if (lazyImage.hasAttribute("data-bg"))lazyImage.style.background = lazyImage.dataset.bg; 
+          if (lazyImage.hasAttribute("data-bgimg"))lazyImage.style.backgroundImage = "url('"+lazyImage.dataset.bgimg+"')";     
+          //cleanup the page of the attributes that are no longer needed
+          lazyImage.removeAttribute("data-lazy");
+        }// end lazy loading
+    });
+    </script><title>Strategies for Nurses: Helping Patients with Dementia | Bradley University Online</title><!-- This site is optimized with the Yoast SEO plugin v12.2 - https://yoast.com/wordpress/plugins/seo/ --><meta name="description" content="An estimated 47 million senior citizens worldwide are living with dementia, according to research from The World Health Organization (WHO). These individuals"/><meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/><link rel="canonical" href="https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Strategies for Nurses: Helping Patients with Dementia | Bradley University Online" /><meta property="og:description" content="An estimated 47 million senior citizens worldwide are living with dementia, according to research from The World Health Organization (WHO). These individuals" /><meta property="og:site_name" content="Bradley University Online" /><meta property="article:section" content="Articles" /><meta property="article:published_time" content="2018-06-15T17:44:47-05:00" /><meta property="article:modified_time" content="2019-10-01T19:19:04-05:00" /><meta property="og:updated_time" content="2019-10-01T19:19:04-05:00" /><meta property="og:image" content="https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia.jpg" /><meta property="og:image:secure_url" content="https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia.jpg" /><meta property="og:image:width" content="685" /><meta property="og:image:height" content="396" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:description" content="An estimated 47 million senior citizens worldwide are living with dementia, according to research from The World Health Organization (WHO). These individuals" /><meta name="twitter:title" content="Strategies for Nurses: Helping Patients with Dementia | Bradley University Online" /><meta name="twitter:image" content="https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia.jpg" /><script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://onlinedegrees.bradley.edu/#website","url":"https://onlinedegrees.bradley.edu/","name":"Bradley University Online","potentialAction":{"@type":"SearchAction","target":"https://onlinedegrees.bradley.edu/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/#primaryimage","url":"https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia.jpg","width":685,"height":396},{"@type":"WebPage","@id":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/#webpage","url":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/","inLanguage":"en-US","name":"Strategies for Nurses: Helping Patients with Dementia | Bradley University Online","isPartOf":{"@id":"https://onlinedegrees.bradley.edu/#website"},"primaryImageOfPage":{"@id":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/#primaryimage"},"datePublished":"2018-06-15T17:44:47-05:00","dateModified":"2019-10-01T19:19:04-05:00","author":{"@id":"https://onlinedegrees.bradley.edu/#/schema/person/9dace8a3f10363028baffc7177b62122"},"description":"An estimated 47 million senior citizens worldwide are living with dementia, according to research from The World Health Organization (WHO). These individuals","breadcrumb":{"@id":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://onlinedegrees.bradley.edu/","url":"https://onlinedegrees.bradley.edu/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://onlinedegrees.bradley.edu/blog/","url":"https://onlinedegrees.bradley.edu/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://onlinedegrees.bradley.edu/blog/category/articles/","url":"https://onlinedegrees.bradley.edu/blog/category/articles/","name":"Articles"}},{"@type":"ListItem","position":4,"item":{"@type":"WebPage","@id":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/","url":"https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/","name":"Helping Caregivers of Patients with Dementia: Strategies for Family Nurse Practitioners"}}]},{"@type":["Person"],"@id":"https://onlinedegrees.bradley.edu/#/schema/person/9dace8a3f10363028baffc7177b62122","name":"Amiel Arieti","sameAs":[]}]}</script><!-- / Yoast SEO plugin. --><link rel='dns-prefetch' href='//ajax.googleapis.com' /><link rel='dns-prefetch' href='//s7.addthis.com' /><link rel='dns-prefetch' href='//fonts.googleapis.com' /><link rel='stylesheet' id='child-style-css'  href='https://onlinedegrees.bradley.edu/wp-content/themes/child-sparkle-box/sparkle-box-and-child.min.css?ver=2019082901' type='text/css' media='all' /><link rel='stylesheet' id='googleFonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C400i%2C600%2C600i%2C700%2C700i&#038;ver=4.9.4' type='text/css' media='all' /><link rel='https://api.w.org/' href='https://onlinedegrees.bradley.edu/wp-json/' /><link rel='shortlink' href='https://onlinedegrees.bradley.edu/?p=1264' /><meta name="framework" content="Alkivia Framework 0.8" /></head>    <body class="post-template-default single single-post postid-1264 single-format-standard">
+	<div class="wpa-hide-ltr" id="skiplinks" role="navigation" aria-label="Skip links"><a href="#main" style="text-decoration: underline;">Skip to main content</a></div>
+	
+	 		<!-- Google Tag Manager (noscript) --> 
+<noscript><iframe src=" https://www.googletagmanager.com/ns.html?id=GTM-WFNKHG8" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
+<!-- End Google Tag Manager (noscript) --> 
+	    
+<div class="wrapper">
+    <header id="header" class="header container-fluid" role="banner" aria-label="Header"><div id="header__wrap--1" class="header__wrap header__wrap--1 wrap"><div class="header__row header__row--2-cols row"><div class="header__row__col header__row__col--1 col  col-sm-6"><div class=" flex  left-align "><div class="logo"><a href="https://onlinedegrees.bradley.edu/" class="logo__link" data-croloc="header" data-crotype="logo" data-crolinktype="internal"><img src="https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/08/06163110/logo-1.png" width="375" height="50" class="logo__img img-responsive" alt="Bradley University Online"/></a></div></div></div><div class="header__row__col header__row__col--2 col  col-sm-6"><div class=" flex right-align"><div class="button"><a href="https://onlinedegrees.bradley.edu/get-started-now/" class ="btn btn--right headerlink" data-croloc="header" data-crotype="button" 		        data-crolinktype="internal"
+               
+>Get Started Now</a></div><div class="header__hamburger headermenulink" role="button"><button id="header__hamburger__toggle" class="header__hamburger__toggle"><span class="sr-only">Menu</span><span class="header__hamburger__toggle__bar"></span><span class="header__hamburger__toggle__bar"></span><span class="header__hamburger__toggle__bar"></span></button><p class="header__hamburger__toggle hidden-xs">Menu</p></div></div></div></div></div><div id="header__nav" class="header__nav menu-item-parents-expandable" style="display:none;" aria-hidden="true" aria-expanded="false"><div class="header__nav__close" role="button">X</div><nav class="menu-header-nav-container"><ul id="menu-header-nav-3" class="menu"><li class="strong menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2242"><a href="https://onlinedegrees.bradley.edu/" data-croloc="mainmenu" data-crolinktype="internal">Home</a></li><li class="strong menu-item menu-item-type-post_type menu-item-object-page menu-item-5089"><a href="https://onlinedegrees.bradley.edu/nursing/" data-croloc="mainmenu" data-crolinktype="internal">NURSING PROGRAMS</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3433"><a>MSN-FNP</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7430"><a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/" data-croloc="mainmenu" data-crolinktype="internal">MSN &#8211; FNP Overview</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7426"><a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4256"><a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4263"><a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li></ul></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3434"><a>FNP Certificate</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3337"><a href="https://onlinedegrees.bradley.edu/nursing/fnp-certificate/" data-croloc="mainmenu" data-crolinktype="internal">FNP Certificate Overview</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4258"><a href="https://onlinedegrees.bradley.edu/nursing/fnp-certificate/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4259"><a href="https://onlinedegrees.bradley.edu/nursing/fnp-certificate/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262"><a href="https://onlinedegrees.bradley.edu/nursing/fnp-certificate/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li></ul></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3435"><a>DNP</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5304"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/" data-croloc="mainmenu" data-crolinktype="internal">DNP Overview</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5230"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/family-nurse-practitioner/" data-croloc="mainmenu" data-crolinktype="internal">DNP-FNP</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5231"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/family-nurse-practitioner/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">DNP-FNP Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5232"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/careers/" data-croloc="mainmenu" data-crolinktype="internal">DNP-FNP Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5535"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/family-nurse-practitioner/faculty/" data-croloc="mainmenu" data-crolinktype="internal">DNP-FNP Faculty</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4543"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/leadership/" data-croloc="mainmenu" data-crolinktype="internal">DNP-Leadership</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4547"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/leadership/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">DNP-Leadership Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4546"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/leadership/careers/" data-croloc="mainmenu" data-crolinktype="internal">DNP-Leadership Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4548"><a href="https://onlinedegrees.bradley.edu/nursing/dnp/leadership/faculty/" data-croloc="mainmenu" data-crolinktype="internal">DNP-Leadership Faculty</a></li></ul></li></ul></li></ul></li><li class="strong menu-item menu-item-type-post_type menu-item-object-page menu-item-3335"><a href="https://onlinedegrees.bradley.edu/counseling/" data-croloc="mainmenu" data-crolinktype="internal">COUNSELING PROGRAMS</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4268"><a>Clinical Mental Health Counseling (CMHC)</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4272"><a href="https://onlinedegrees.bradley.edu/counseling/masters-clinical-mental-health-counseling/" data-croloc="mainmenu" data-crolinktype="internal">Clinical Mental Health Counseling Overview</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4269"><a href="https://onlinedegrees.bradley.edu/counseling/masters-clinical-mental-health-counseling/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4270"><a href="https://onlinedegrees.bradley.edu/counseling/masters-clinical-mental-health-counseling/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5847"><a href="https://onlinedegrees.bradley.edu/counseling/masters-clinical-mental-health-counseling/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li></ul></li></ul></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4273"><a>Professional School Counseling (PSC)</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4274"><a href="https://onlinedegrees.bradley.edu/counseling/masters-professional-school-counseling/" data-croloc="mainmenu" data-crolinktype="internal">Professional School Counseling Overview</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4275"><a href="https://onlinedegrees.bradley.edu/counseling/masters-professional-school-counseling/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276"><a href="https://onlinedegrees.bradley.edu/counseling/masters-professional-school-counseling/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4277"><a href="https://onlinedegrees.bradley.edu/counseling/masters-professional-school-counseling/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li></ul></li></ul></li><li class="strong menu-item menu-item-type-post_type menu-item-object-page menu-item-6447"><a href="https://onlinedegrees.bradley.edu/edd-doctor-of-education/" data-croloc="mainmenu" data-crolinktype="internal">EDUCATION PROGRAMS</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6449"><a>Doctor of Education</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6450"><a href="https://onlinedegrees.bradley.edu/edd-doctor-of-education/" data-croloc="mainmenu" data-crolinktype="internal">Doctor of Education Overview</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7305"><a href="https://onlinedegrees.bradley.edu/edd-doctor-of-education/higher-education-administration/" data-croloc="mainmenu" data-crolinktype="internal">Higher Education Administration</a><ul class="sub-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7306"><a href="https://onlinedegrees.bradley.edu/edd-doctor-of-education/higher-education-administration/careers/" data-croloc="mainmenu" data-crolinktype="internal">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7307"><a href="https://onlinedegrees.bradley.edu/edd-doctor-of-education/higher-education-administration/curriculum/" data-croloc="mainmenu" data-crolinktype="internal">Curriculum</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7308"><a href="https://onlinedegrees.bradley.edu/edd-doctor-of-education/higher-education-administration/faculty/" data-croloc="mainmenu" data-crolinktype="internal">Faculty</a></li></ul></li></ul></li></ul></li><li class="strong menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-5090"><a href="https://onlinedegrees.bradley.edu/blog/" data-croloc="mainmenu" data-crolinktype="internal">BLOG</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4279"><a href="/blog/category/counseling" data-croloc="mainmenu" data-crolinktype="internal">Counseling Resources</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4280"><a href="/blog/category/nursing" data-croloc="mainmenu" data-crolinktype="internal">Nursing Resources</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6567"><a href="/blog/category/education/" data-croloc="mainmenu" data-crolinktype="internal">Education Resources</a></li></ul></nav></div></header>        
+            <div id="breadcrumbs" class="breadcrumbs row">
+    <div class="breadcrumbs__col col col-sm-12">
+        <div class="breadcrumbs__wrap wrap clearfix">
+            <div class="breadcrumbs__col__row row">
+                <div class="breadcrumbs__col__row__col col col-sm-12  ">
+                                        <div class="breadcrumbs__nav">
+                         <nav class="main-breadcrumbs" data-croloc="breadcrumb"><span><span><a href="https://onlinedegrees.bradley.edu/" >Home</a> | <span><a href="https://onlinedegrees.bradley.edu/blog/" >Blog</a> | <span><a href="https://onlinedegrees.bradley.edu/blog/category/articles/" >Articles</a> | <span class="breadcrumb_last" aria-current="page">Helping Caregivers of Patients with Dementia: Strategies for Family Nurse Practitioners</span></span></span></span></span></nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+     
+    <main id="main" class="main container-fluid">
+                 
+                <div class="main__row main__row--content main__row--content--without-sidebar row">
+
+             
+            <div class="content col col-md-12">
+                    <div class="meta row">
+    <div class="meta__col">
+        <h1 class="meta__heading">Helping Caregivers of Patients with Dementia: Strategies for Family Nurse Practitioners</h1>
+        <p class="tease__categories"><a href="https://onlinedegrees.bradley.edu/blog/category/articles/" class="tease__categories__link"><span class="sr-only">View all blog posts under </span>Articles</a> | <a href="https://onlinedegrees.bradley.edu/blog/category/nursing/" class="tease__categories__link"><span class="sr-only">View all blog posts under </span>Nursing Resources</a></p>  
+                <script type="text/javascript">
+            var addthis_share = {
+                url: "https://onlinedegrees.bradley.edu/blog/helping-caregivers-of-patients-with-dementia-strategies-for-family-nurse-practitioners/",
+                title: "Helping Caregivers of Patients with Dementia: Strategies for Family Nurse Practitioners",
+                description: "An estimated 47 million senior citizens worldwide are living with dementia, according to research from The World Health Organization (WHO). These individuals",
+                media: "https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia.jpg"
+            }
+        </script>
+        <div class="meta__social"><div class="addthis addthis_toolbox addthis_default_style addthis_32x32_style" >
+  <a class="addthis__item addthis__item--facebook addthis_button_facebook" croloc="content" crotype="social"></a>
+  <a class="addthis__item addthis__item--twitter addthis_button_twitter" croloc="content" crotype="social"></a>
+  <a class="addthis__item addthis__item--pinterest addthis_button_pinterest_share" croloc="content" crotype="social"></a>
+  <a class="addthis__item addthis__item--googleplus addthis_button_google_plusone_share" croloc="content" crotype="social"></a>
+  <a class="addthis__item addthis__item--linkedin addthis_button_linkedin" croloc="content" crotype="social"></a>
+</div></div> 
+    </div>
+</div>      		<div class="content__row">
+ 			<div class="content__row__col">
+				    <div class="copy" role="article">
+<p><img class="aligncenter size-medium wp-image-1627" src="https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia-500x289.jpg" alt="" width="500" height="289" srcset="https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia-500x289.jpg 500w, https://s3.amazonaws.com/utep-uploads/wp-content/uploads/bradley/2018/06/29110526/Helping-Caregivers-Of-Patients-With-Dementia.jpg 685w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>An estimated 47 million senior citizens worldwide are living with dementia, according to research from The World Health Organization (WHO). These individuals are not alone in their struggle against this deadly disease. Family members and friends provide support, devoting considerable amounts of time to ensuring their loved ones can navigate life safely. Caring for someone with dementia is no easy task. Caregivers themselves often experience adverse health effects due to the stress of caring for loved ones with deteriorating psychological capacity. Many people caring for individuals with dementia develop a formal condition called caregiver strain. Symptoms of caregiver strain include anxiety, depression and social withdrawal, according to the Alzheimer’s Association. Some caregivers even develop physical symptoms as a result of burnout.</p>
+<p>In cases of caregiver strain, <a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/">family nurse practitioners (FNPs)</a> can offer invaluable assistance, providing caregivers with the essential guidance they need to support patients with dementia without a negative impact on the caregiver’s own well-being. Here are some of the ways in which medical professionals can help those individuals caring for seniors with dementia.</p>
+<h2>Bolstering medical skills</h2>
+<p>One of the most effective methods for assisting caregivers is helping them build their technical skill sets, according to one study from health care researchers from Michigan State University and The State University of New Jersey published in the journal “Patient Safety and Quality: An Evidenced-Based Handbook for Nurses.” Data shows that caregivers who are more confident in their abilities are less likely to develop stress.</p>
+<p>FNPs should focus on teaching caregivers how to administer medication and deal with infections or other illnesses that can materialize in individuals with dementia. Patients often develop urinary tract or sinus infections due to dementia-related apathy, according to the Alzheimer’s Association. Additionally, the disease can cause eyesight and hearing issues.</p>
+<h2>Working on communication competencies</h2>
+<p>Patients with dementia often experience difficulties communicating as their disease progresses. Most individuals have trouble finding the right words during conversations or organizing coherent sentences. Some patients may find that describing familiar objects becomes difficult. Multilingual patients with dementia sometimes revert to speaking their native languages. In addition to these cognitive issues, individuals coping with dementia may develop behavioral problems that can further impede communication. Patients with dementia might disengage when spoken to due to apathy or become agitated as the result of disease-related personality changes.</p>
+<p>Together, these complications can weigh on caregivers and lay the groundwork for strain. FNPs can help individuals with dementia overcome communication roadblocks by providing caregivers with actionable techniques for forming and maintaining functional connections with the individuals in their care.</p>
+<p>The National Center on Caregiving advises people supporting patients with dementia to set positive moods for interactions to avoid conflict, limit distractions that might pull charges out of conversation and use simple language. The group also advises caregivers to practice empathy and keep the needs of the patient in mind, even when problems arise.</p>
+<p>FNPs can help caregivers hone these skills and improve their bedside expertise to provide hands-on insight into patient communication.</p>
+<h2>Addressing problem-solving abilities</h2>
+<p>Caregivers will likely encounter a myriad of problems when supporting patients with dementia. Abnormal social behaviors can give way to public and private interpersonal conflicts. The psychological breakdown that develops as a result of dementia can lead patients to make errors big and small, from mismanaging large amounts of money to forgetting to bathe, noted an article from nursing researchers at the University of California, San Francisco published in the journal “Clinical Nurse Spec.”</p>
+<p>FNPs can help caregivers prepare for these situations by working with them to develop easy-to-deploy problem-solving techniques. When individuals supporting patients with dementia have the skills necessary to think through these issues, stress is less likely to build. This methodology also has a clinical component: Common dementia medications such as cholinesterase inhibitors and memantine can cause side effects like dizziness and vomiting, according to Mayo Clinic. Caregivers must have the mental wherewithal to address these issues, along with more serious complications.</p>
+<h2>Providing insight into care delivery</h2>
+<p>In addition to helping patients with dementia get through daily life, caregivers also shuttle their patients through the health care system, offering counsel and support throughout treatment. Caregivers should develop a keen understanding of modern care delivery, most notably the local health service options that normally work best for patients with dementia who cannot stray too far from home. Both state and federal agencies sponsor such programs.</p>
+<p>FNPs are perfectly positioned to provide this insight, as they know the ins and outs of the health care system and can offer firsthand knowledge on how best to serve patients in an increasingly complex care environment. Apart from helping caregivers understand how treatment is administered, these medical professionals should address the caregiver’s role and responsibilities, according to research from ethics experts at the American College of Physicians published in the journal “J Gen Internal Med.”</p>
+<p>In the era of patient-centered care, caregivers and patient advocates have gained great power and now work side by side with doctors and other clinicians to design and deliver care. It is possible for these medical professions to overstep their boundaries and begin speaking for, rather than advocating for, patients. Any medical professional speaking for a patient is problematic on multiple fronts and stands in violation of laws that govern patient privacy and autonomy. FNPs can prevent these problems up front by helping caregivers understand the care delivery environment and how they fit within it, legally and practically.</p>
+<h2>Combating dementia via caregiver support</h2>
+<p>With these strategies, FNPs can empower caregivers of patients with dementia, an act that ultimately benefits individuals with the disease. Such a task requires formalized advanced-practice instruction.</p>
+<p>Registered nurses (RNs) can gain the skills and knowledge needed to better support dementia caregivers by enrolling in Bradley University’s <a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/">online Master of Science in Nursing — FNP program</a>. As students, RNs gain knowledge on a wide range of topics, from advanced health assessment techniques to health care policy, all without stepping foot on campus. The 67-credit-degree track ends with a capstone research project, followed by five preceptor-supervised clinical practicums, which can be administered in any location.</p>
+<p>The online MSN-FNP program at Bradley University is the ideal choice for RNs hoping to move upward mid-career and expand their skill sets so as to better serve their patients and the people who support them at home.</p>
+<p>&nbsp;</p>
+<p><strong>Recommended Readings</strong></p>
+<p><a href="https://onlinedegrees.bradley.edu/blog/managing-conflicts-with-patients-strategies-for-fnps/">Managing Conflicts with Patients: Strategies for FNPs</a></p>
+<p><a href="https://onlinedegrees.bradley.edu/blog/why-fnps-are-a-good-fit-for-underserved-communities/">Why FNPs Are a Good Fit for Underserved Communities</a></p>
+<p><a href="https://onlinedegrees.bradley.edu/nursing/msn-fnp/">Bradley University Online MSN-FNP Program</a></p>
+<p>&nbsp;</p>
+<p><strong>Sources</strong></p>
+<p><a href="http://origin.who.int/features/factfiles/dementia/en/">http://origin.who.int/features/factfiles/dementia/en/</a></p>
+<p><a href="http://www.alz.org/care/alzheimers-dementia-caregiver-stress-burnout.asp">http://www.alz.org/care/alzheimers-dementia-caregiver-stress-burnout.asp<br />
+</a><br />
+<a href="https://www.ncbi.nlm.nih.gov/books/NBK2665/">https://www.ncbi.nlm.nih.gov/books/NBK2665/</a></p>
+<p><a href="http://www.alz.org/alzheimers_disease_treatments_for_behavior.asp#non-drug">http://www.alz.org/alzheimers_disease_treatments_for_behavior.asp#non-drug</a></p>
+<p><a href="http://www.cdss.ca.gov/agedblinddisabled/res/VPTC2/12%20Working%20With%20Consumers%20with%20Disabilities/Ten_Tips_Communicating_Dementia.pdf">http://www.cdss.ca.gov/agedblinddisabled/res/VPTC2/12%20Working%20With%20Consumers%20with%20Disabilities/Ten_Tips_Communicating_Dementia.pdf</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943420/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943420/</a></p>
+<p><a href="http://www.mayoclinic.org/diseases-conditions/dementia/diagnosis-treatment/treatment/txc-20198533">http://www.mayoclinic.org/diseases-conditions/dementia/diagnosis-treatment/treatment/txc-20198533</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2839338/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2839338/</a></p>
+<p>&nbsp;</p>
+
+</div>			</div>
+		</div>
+	            </div>
+             
+                                         </div>
+    </main>
+        <div id="sticky--footer" class="sticky sticky--footer container-fluid" role="region" aria-label="Suplementary Content"><div id="sticky__wrap--1" class="sticky__wrap sticky__wrap--1 wrap"><div class="sticky__row sticky__row--2-cols row"><div class="sticky__row__col sticky__row__col--1 col  col-sm-6"><div class="copy" role="article">
+Learn more about Bradley’s online degree programs.
+</div></div><div class="sticky__row__col sticky__row__col--2 col  col-sm-6"><div class="button"><a href="javascript:void(0)" class ="btn btn--learn-more stickyformlink" aria-haspopup="true" data-croloc="sticky" data-crotype="rfi" 		                       
+>Download Brochure</a></div><div class="button"><a href="https://onlinedegrees.bradley.edu/get-started-now/" class ="btn stickylink" data-croloc="sticky" data-crotype="button" 		        data-crolinktype="internal"
+               
+>Get Started Now</a></div></div></div></div><div class="clearfix"></div></div>     
+      
+        <footer id="footer" class="footer container-fluid">
+                   
+                                            <div id="footer__wrap--1" class="footer__wrap footer__wrap--1 wrap">
+                                                                                                                                                <div class="footer__row footer__row--1-cols row">     
+                         
+                            <div class="footer__row__col footer__row__col--1 footer__row__col--align-middle col  col-sm-12">
+                                           
+                                                					<nav id="footer__nav" class="footer__nav" aria-label="Footer Navigation"><ul class="footer__nav__ul" role="menubar"><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://onlinedegrees.bradley.edu/about-bradley/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="internal"
+               
+>About Bradley</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link footer__nav__ul__li__link--lightbox link--lightbox" href="javascript:void(0)" data-lightbox="lightbox__wrap--2" data-croloc="footer" data-crotype="openlightbox">Rankings</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://www.bradley.edu/accreditation/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="external" rel="noreferrer" target="_blank"
+               
+>Accreditation</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link footer__nav__ul__li__link--privacy-ajax pop-up-ajax" href="https://onlinedegrees.bradley.edu/privacy-policy/" data-croloc="footer" data-crotype="openlightbox">Privacy Policy</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://onlinedegrees.bradley.edu/program-details/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="internal"
+               
+>Program Details</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://onlinedegrees.bradley.edu/blog/" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="internal"
+               
+>Blog</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link" href="https://www.bradley.edu/legal/consumerinfo/ged/family-nurse-practitioner-fnp-certificate/FNP_DisclosureTemplate.pdf" data-croloc="footer" data-crotype="footermenu" 		        data-crolinktype="external" rel="noreferrer" target="_blank"
+               
+>Gainful Employment</a></li><li class="footer__nav__ul__li " role="menuitem"><a class="footer__nav__ul__li__link pop-up-ajax" href="https://onlinedegrees.bradley.edu/do-not-sell-my-info/" data-croloc="footer" data-crotype="openlightbox">Do Not Sell My Info</a></li></ul></nav>      
+                                                                    </div>
+                                            </div>
+                </div>
+                     
+    </footer>
+<div id="lightbox" class="lightbox" style="display:none;" aria-hidden="true">      
+    
+      
+                                        <div id="lightbox__wrap--2" class="lightbox__wrap lightbox__wrap--2 wrap" style="display:none;" aria-hidden="true">
+                <div class="lightbox__close" data-croloc="modal" data-crotype="close">X</div>
+                <div class="lightbox__wrap__inner">
+                    <h2>Rankings</h2>
+<ul>
+<li>#6 Among Regional Universities (Midwest) – U.S. News &amp; World Report: Best Colleges (2019)</li>
+<li>#5 Best Value Schools, Regional Universities (Midwest) – U.S. News &amp; World Report (2019)</li>
+<li>Bradley Ranked Among Nation&#8217;s Best Universities – The Princeton Review: The Best 384 Colleges (2019). Only 15% of all four-year colleges receive this distinction each year, and Bradley has regularly been included on the list.</li>
+<li>Bradley University has been named a Military Friendly School – a designation honoring the top 20% of colleges, universities and trade schools nationwide that are doing the most to embrace U.S. military service members, veterans and spouses to ensure their success as students.</li>
+</ul>
+
+                </div>
+            </div> 
+                                                                                         <div id="lightbox__wrap--ajax" class="lightbox__wrap lightbox__wrap--ajax wrap" style="display:none;" aria-hidden="true">
+        <div class="lightbox__close" data-croloc="modal" data-crotype="close">X</div>
+            <div class="lightbox__wrap__loading-animation"></div>
+            <div class="lightbox__wrap__inner"></div>
+    </div>
+                <div id="lightbox__wrap--form" class="lightbox__wrap lightbox__wrap--form wrap" style="display:none;" aria-hidden="true">
+            <div id="form" class="form" role="dialog" aria-labelledby="myModalLabel"><div class="form__inner "><div class="lightbox__close" style="display:none;" role="button" aria-label="Close Modal">X</div><div class="form__inner__intro"><div class="form__inner__intro__title form--hide-on-ty" id="myModalLabel">
+            Get Program Details
+        </div><div class="form__inner__intro__description form--hide-on-ty">
+            This will only take a moment.
+        </div></div><form id="form__inner__lead-form" class="form__inner__lead-form " action="/wp-content/plugins/ckg-lead-form/form_send.php" data-api="0" method="post" data-croselectiontype="dropdown" data-croformlaurusquestion="program" data-croformtype="2-step-rfi-form"><input type="hidden" name="goal_tracker" value="thank"><input type="hidden" name="access_code" value="BDU-ALL-SEO"><div class="form__inner__lead-form__question form__inner__lead-form__question--1 form__inner__lead-form__question--laurus_question form__inner__lead-form__question--current"><div class="form__inner__lead-form__question__progress"><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2 form__inner__lead-form__question__progress__step--current">
+                                                1
+                                            </div><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2">
+                                                2
+                                            </div></div><div class="form__inner__lead-form__question__wrap"><fieldset class="1"><div class="form__inner__lead-form__question__copy"><table><tr><td class="form__inner__lead-form__question__copy__number">1.</td><td class="form__inner__lead-form__question__copy__question">Which program are you most interested in?</td></tr></table></div><legend class="form__inner__lead-form__question__legend">Which program are you most interested in?</legend><div class="form__inner__lead-form__question__answers"><label for="program" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--select sr-only">Which program are you most interested in?</label><select id="program" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--select form__inner__lead-form__question__answers__answer--select--program " name="program" required="" aria-label="Please select an option below"><option value="">Please select an option</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--1"
+				value="BDU_EDD" 
+data-cond-group="EDD"
+  >
+				Doctor of Education		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--2"
+				value="BDU_MAC" 
+data-cond-group="MAC"
+  >
+				Master of Arts in Counseling		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--3"
+				value="BDU_MSNFNPADN" 
+data-cond-group="MSNFNPADN"
+  >
+				ADN/Diploma to MSN-FNP		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--4"
+				value="BDU_MSNFNP" 
+data-cond-group="MSNFNP"
+  >
+				BSN to MSN-FNP		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--5"
+				value="BDU_DNPFNP" 
+data-cond-group="DNPFNP"
+  >
+				BSN to DNP-FNP		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--6"
+				value="BDU_FNPC" 
+data-cond-group="FNPC"
+  >
+				MSN to FNP Certificate		
+				</option><option 
+				class="form__inner__lead-form__question__answers__answer--select--program--7"
+				value="BDU_DNPL" 
+data-cond-group="DNPL"
+  >
+				MSN to DNP-Leadership		
+				</option></select><div class="form__inner__lead-form__question__answers__errors"></div></div></fieldset></div><div class="form__inner__lead-form__question__nav"><a href="javascript:void(0)" class="form__inner__lead-form__question__nav__btn form__inner__lead-form__question__nav__btn--next btn btn--next ">Next Step</a><a class="form__inner__lead-form__question__nav__privacy-link pop-up-ajax" href="https://onlinedegrees.bradley.edu/privacy-policy/" data-croloc="form" data-crotype="privacy">
+                                                    We value your privacy.
+                                                                                                    </a></div></div><div class="form__inner__lead-form__question form__inner__lead-form__question--2 form__inner__lead-form__question--last_step_info"><div class="form__inner__lead-form__question__progress"><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2 form__inner__lead-form__question__progress__step--current form__inner__lead-form__question__progress__step--previous">
+                                                1
+                                            </div><div class="form__inner__lead-form__question__progress__step form__inner__lead-form__question__progress__step--steps-2 form__inner__lead-form__question__progress__step--current">
+                                                2
+                                            </div></div><fieldset><div class="form__inner__lead-form__question__wrap"><div class="form__inner__lead-form__question__copy"><table><tr><td class="form__inner__lead-form__question__copy__number">2.</td><td class="form__inner__lead-form__question__copy__question">Who is this brochure for?</td></tr></table></div><legend class="form__inner__lead-form__question__legend">Who is this brochure for?</legend><label for="name" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden">Full Name</label><input type="text" name="name" id="name" aria-label="Full Name" placeholder="Full Name" data-parsley-required="" data-parsley-pattern="\w+( )+...*" data-parsley-required-message="Please enter your first and last name." data-parsley-pattern-message="Please enter your first and last name." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--name"><label for="email" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden">Email</label><input type="email" name="email" id="email" aria-label="Email" parsley-type="email" placeholder="Email" data-parsley-required="" data-parsley-required-message="Please enter a valid email." data-parsley-pattern-message="Please enter a valid email." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--email"><label for="country" style="display:none;" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden">Country</label><select style="display:none;" name="country" id="country" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--select form__inner__lead-form__question__answers__answer--select--country" required="" disabled aria-label="Select a Country"></select><label for="primary_phone" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--usphone">Phone</label><input type="tel" name="primary_phone" id="primary_phone" aria-label="phone" data-parsley-pattern="^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$" placeholder="Phone" data-parsley-required=""  data-parsley-required-message="Please enter a valid phone number in this format ###-###-####." data-parsley-usphone-message="Please enter a valid phone number in this format ###-###-####." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--phone form__inner__lead-form__question--usphone"><label for="zip" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--uszip">ZIP Code</label><input type="tel" name="zip" id="zip" aria-label="ZIP Code" data-parsley-type="digits" data-parsley-minlength="5" data-parsley-maxlength="10" placeholder="ZIP Code" data-parsley-required="" data-parsley-required-message="Please enter a 5 digit ZIP Code." data-parsley-minlength-message="Please enter a 5 digit ZIP Code." data-parsley-maxlength-message="Please enter a 5 digit ZIP Code." data-parsley-type-message="Please enter a valid 5 digit ZIP Code." class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--uszip form__inner__lead-form__question--uszip"><label for="int_phone" style="display:none;" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text  form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--intphone">International Phone</label><input style="display:none;" type="tel" aria-label="International Phone" name="int_phone" id="int_phone" placeholder="Phone" data-parsley-required=""  minlength="10" data-parsley-minlength-message="Please enter a phone number with 10 or more digits." data-parsley-required-message="Please enter your phone number" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--intphone form__inner__lead-form__question--intphone" disabled><label for="postal_code" style="display:none;" class="form__inner__lead-form__question__answers__label form__inner__lead-form__question__answers__label--text  form__inner__lead-form__question__answers__label--hidden form__inner__lead-form__question--postal">Postal Code</label><input style="display:none;" type="text" name="postal_code" id="postal_code" aria-label="Postal Code" placeholder="Postal Code" data-parsley-required="" minlength="4" data-parsley-minlength-message="Please enter a postal code with four or more characters." data-parsley-required-message="Please enter your postal code" class="form__inner__lead-form__question__answers__answer form__inner__lead-form__question__answers__answer--text form__inner__lead-form__question__answers__answer--text--postal form__inner__lead-form__question--postal" disabled></div></fieldset><div class="form__inner__lead-form__question__nav"><input type="submit" class="form__inner__lead-form__question__nav__btn form__inner__lead-form__question__nav__btn--submit btn btn--submit" value="Download Brochure"><a class="form__inner__lead-form__question__nav__privacy-link pop-up-ajax" href="https://onlinedegrees.bradley.edu/privacy-policy/" data-croloc="form" data-crotype="privacy">
+                                                    We value your privacy.
+                                                                                                    </a></div></div></form><div class="form__loading-animation"></div></div></div>                            </div>
+             
+</div> <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script type='text/javascript' defer src='https://onlinedegrees.bradley.edu/wp-content/themes/sparkle-box/assets/js/parsley.min.js?ver=2019082901'></script>
+<script type='text/javascript' src='//s7.addthis.com/js/300/addthis_widget.js?ver=4.9.4#pubid='></script>
+<script type='text/javascript' defer src='https://onlinedegrees.bradley.edu/wp-content/themes/sparkle-box/assets/js/main.min.js?ver=2019082901'></script>
+</div>
+</body>
+</html>

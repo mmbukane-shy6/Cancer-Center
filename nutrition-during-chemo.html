@@ -1,0 +1,5289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html >
+
+
+
+
+
+
+<head>
+    <!-- include all the meta tags that need to be on all pages here -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/gif" href="/etc/clientlibs/shc/main/img/favicon.gif"/>
+    
+
+
+
+    <link rel="stylesheet" href="/etc/clientlibs/shc/aem-optimized.min.d41d8cd98f00b204e9800998ecf8427e.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/clientlibs/shc/all.min.84bd04b97232f3814dcb2184c0a73490.css" type="text/css"/>
+
+
+
+    
+
+    
+    
+        
+        
+        
+        
+        
+    
+    
+        
+        
+            <meta name="sp_keywords" content="chemotherapy nutrition, nutrition during chemo, diet for cancer patients" >
+        
+    
+    
+    
+
+    <meta name="sp_specialties" content="" > 
+    <meta name="sp_pageName" content="medical-clinics:cancer-nutrition-services:during-cancer-treatment:nutrition-during-chemo">
+    <meta name="Language" content="en"/>
+    <meta name="Location" content="us"/>
+
+    
+    
+    
+    <meta name="sp_isPatientEd" content="false">
+
+    <!-- Disable native phone number recognition in iOS devices //-->
+    <meta name="format-detection" content="telephone=no" />
+    
+
+    <!-- perform all standard logic that needs to be on all pages here -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+        
+            
+        
+    
+
+    <!-- Override the finalTitle with authored pageTitle property, when populated -->
+    
+        
+    
+
+    <!-- Override finalTitle with SEO search results title, if populated -->
+    
+
+    
+        
+        
+            
+                
+                
+                
+                    <title>Cancer Patient Nutrition during Chemotherapy | Stanford Health Care</title>
+                
+            
+        
+    
+
+    
+<script type="text/javascript">
+/*
+The Data Layer...
+Created by Nicholaus Chipping & Devin Doxey
+October 1st, 2014
+Version 1.0
+*/
+var	dl=
+{
+	attributes:
+	{
+		country		:'US',
+		language	:'en'
+	},
+	campaigns:
+	[
+		{
+			ecid	:'',
+			medium	:'',
+			source	:'',
+			site	:'',
+			size	:''
+		}
+	],
+	content:
+	{
+		author				:'syoung',
+		tags				:'',
+		type				:'',
+		keywords			:'chemotherapy nutrition, nutrition during chemo, diet for cancer patients',
+		publishDate			:'',
+		internalSearchTerms	:'',
+		fileDownloads		:'',
+		errorPageReferrer	:'',
+		errorPageUrl		:'',
+		previousPage		:''
+	},
+	page:
+	{
+		id			        :'',
+		name		        :'',
+		hierarchy	        :'',
+		siteSection     	:'',
+		title		        : 'Nutrition during chemo',
+		url			        :'',
+        Lhierarchy          : 'L2',
+        doctorName          : '',
+        clinicName          : 'Cancer Patient Nutrition during Chemotherapy',
+        doctorOrganization  : '',
+        clinicOrganization  : 'shc',
+        medicalCategory     : '',
+        conditionName       : '',
+        liveChatPresent     : '',
+        pressGaneyPresent   : ''
+	},
+    search:
+    {
+        internalSearchTerm      : '',
+        resultsReturned         : '',
+        searchResultPageNumber  : ''
+    },
+	methods:
+	{
+		//methods for getting & setting the proper page name anywhere
+		escapeRegExp: function(string) {
+			return string.replace(/([.*+?^=!:<%="$"%>{}()|\[\]\/\\])/g, "\\$1");
+		},
+
+		replaceAll: function(string, find, replace) {
+		  return string.replace(new RegExp(dl.methods.escapeRegExp(find), 'g'), replace);
+		},
+
+		isErrorPage: function() {
+			var page404 = jQuery('#shc-search-title').attr('data-page-template');
+			if (page404 === "/apps/shc/templates/404") {
+				return true;
+			}
+			return false;
+		},
+
+		setPageName: function() {
+			//set s.pageName
+			if (typeof s !== "undefined") {
+				s.pageName = s.eVar31 = this.getPageName();
+			}
+		},
+
+		getPageName: function(optionalPath) {
+			if (typeof _satellite !== "undefined") {
+				return _satellite.getVar("Page Name");
+			}
+			var path = window.location.pathname;
+			var hash = window.location.hash;
+			if (typeof optionalPath !== "undefined") {
+				path = optionalPath;
+			}
+			if (hash && hash !== "#/" && hash !== "/") {
+				dl.page.name = "stanfordhealthcare";
+				if (hash.indexOf("#/") > -1) {
+					dl.page.name += ":" + dl.methods.replaceAll(hash, "#/","");
+				}
+			} else if (path.indexOf("presentation-mode") > -1) {
+				if (path.indexOf("presentation-mode") > -1) {
+					dl.page.name = path.substr(path.indexOf("presentation-mode") + 18, path.length);
+				}
+			} else if (path.indexOf("stanfordhealthcare") > -1 && hash.length > 0) {
+				dl.page.name = "stanfordhealthcare";
+			} else if (path.length > 1 && !dl.methods.isErrorPage()) {
+				dl.page.name = path.substr(0, path.length);
+			} else {
+				if (hash.length === 0) {
+					if (dl.methods.isErrorPage()) {
+						dl.page.name = "";
+					} else {
+						dl.page.name="Home";
+					}
+				}
+			}
+			if (dl.page.name.indexOf("content/shc/en") > -1) {
+				dl.page.name = dl.page.name.replace("content/shc/en","");
+			}
+			if (dl.page.name.indexOf("en/") > -1 && dl.page.name.indexOf("en/") < 2) {
+				dl.page.name = dl.page.name.replace("en/","");
+			}
+			if (dl.page.name.indexOf("/") > -1) {
+				if (dl.page.name.indexOf("/") === 0) {
+					dl.page.name = dl.page.name.replace("/","");
+				}
+				dl.page.name = dl.methods.replaceAll(dl.page.name, "/", ":");
+			}
+			if (dl.page.name.indexOf("?") > -1) {
+				dl.page.name = dl.page.name.substr(0, dl.page.name.indexOf("?"));
+			}
+			if (dl.page.name.indexOf(".html") > -1) {
+				dl.page.name = dl.page.name.substr(0, dl.page.name.indexOf(".html"));
+			}
+
+			return dl.page.name;
+		}
+	}
+};
+
+var dataLayer = [];
+dataLayer.push({
+	'attributes': dl.attributes,
+	'content': dl.content,
+	'page': dl.page,
+	'sp': {}
+});
+
+function setPageName() {
+	dl.methods.setPageName();
+}
+</script>
+
+    <!-- include all page specific meta tags in customheadlogic.jsp scripts -->
+    <!-- perform all page specific logic in customheadlogic.jsp scripts -->
+    
+
+
+
+
+<meta name="parentPagePath" content="/content/shc/en/medical-clinics/cancer-nutrition-services">
+
+
+<meta name="parentPageTitle" content="Nutrition Services for Cancer Patients">
+    
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Learn how to eat before and after chemotherapy, such as light and bland food before treatment, and small lower fat bland food after the procedure.">
+    
+
+
+<script type="text/javascript">s_preLoad = (new Date()).getTime();</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var SHC = SHC || {};
+    var GLOBAL_SPURL_OBJECT = "//sp1004f3b2.guided.ss-omtrdc.net";
+    var HOME_PAGE_PATH = "/content/shc/en";
+    var GLOBAL_MICROSITE_SRC = "";
+    var GLOBAL_SEARCH_RESULTS_TEMPLATE = "/apps/shc/templates/searchresults";
+    var DOCTOR_DIRECTORY_PATH = "/content/shc/en/search-results.doctors.html";
+    var DOCTOR_DIRECTORY_PAGE = "search-results.doctors.html";
+    var CLINIC_DIRECTORY_PATH = "/content/shc/en/search-results.clinics.html";
+    var CLINIC_DIRECTORY_PAGE = "search-results.clinics.html";
+    var TRIAL_DIRECTORY_PATH = "/content/shc/en/search-results.trials.html";
+    var TRIAL_DIRECTORY_PAGE = "search-results.trials.html";
+    var CONDITION_DIRECTORY_PATH = "/content/shc/en/search-results.conditions.html";
+    var CONDITION_DIRECTORY_PAGE = "search-results.conditions.html";
+    var NEWSROOM_DIRECTORY_PATH = "/content/shc/en/search-results.newsroom.html";
+    var NEWSROOM_DIRECTORY_PAGE = "search-results.newsroom.html";
+</script>
+
+<script src="//assets.adobedtm.com/78cb508f5cf73aae9f2fe03247c7b77240a88a0b/satelliteLib-b7ed4568546d9bd6ce2b05b772cb152a44e19f76.js"></script>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="/etc/clientlibs/shc/main/css/ie8.css" />
+<![endif]-->
+<!--[if IE 9 ]>
+<link rel="stylesheet" type="text/css" href="/etc/clientlibs/shc/main/css/ie9.css" />
+<![endif]-->
+<!--[if lte IE 9]>
+<script>
+// if presentation mode in IE9 or less, redirect to presentation mode's path
+function checkForRequestedPresentation(url) {
+    var urlSplit =  url.split('.html');
+    if (urlSplit.length <= 1 || urlSplit[1].length <= 0) {
+        return;
+    }
+    urlSplit = urlSplit[1].split('/presentation-mode');
+    if (urlSplit.length <= 1 || urlSplit[1].length <= 0) {
+        return;
+    }
+    var path = urlSplit[1] + '.html';
+    window.location.replace = path;
+}
+var presentationRawUrl = window.location.href;
+checkForRequestedPresentation(presentationRawUrl);
+</script>
+<![endif]-->
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+<meta name="mail_title" content="Nutrition during chemo"/>
+<meta name="mail_description" content="Learn how to eat before and after chemotherapy, such as light and bland food before treatment, and small lower fat bland food after the procedure."/>
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+<meta property="og:url" content="https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Nutrition during chemo"/>
+<meta property="og:description" content="Learn how to eat before and after chemotherapy, such as light and bland food before treatment, and small lower fat bland food after the procedure."/>
+
+
+    
+
+
+
+<meta property="twitter:domain" content="Stanford Health Care"/><meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@StanfordHealth"/><meta name="twitter:title" content="Nutrition during chemo"/>
+<meta name="twitter:description" content="Learn how to eat before and after chemotherapy, such as light and bland food before treatment, and small lower fat bland food after the procedure."/>
+<meta name="twitter:url" content="https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html"/>
+
+
+    
+    <link rel="canonical" href="https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html"/>
+
+<script type="text/javascript">
+// Global var for embedded share component
+var o = 'Learn how to eat before and after chemotherapy, such as light and bland food before treatment, and small lower fat bland food after the procedure.';
+var META_DESCRIPTION = encodeURIComponent(o);
+</script>
+    
+
+
+    
+    
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "Stanford Health Care",
+                "url": "https://stanfordhealthcare.org",
+                "sameAs": [
+                    "http://facebook.com/stanfordhealthcare",
+                    "http://twitter.com/stanfordhealth",
+                    "https://www.youtube.com/user/StanfordHospital"
+                ]
+            }
+        </script>
+    
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+    
+
+
+<script type="text/javascript" src="/etc/clientlibs/shc/aem-optimized.min.cb2716e7fd40bd06ec77735bbdecebeb.js"></script>
+
+
+    
+
+
+    <script type="text/javascript" src="/etc/clientlibs/shc/all.min.70c125d757408676043cb7342fea6420.js"></script>
+
+    
+
+
+<!-- === base/bodylibs === -->
+
+    <div class="modal-window" id="modal">
+
+
+
+
+<div id="modal-container" aria-hidden="true">
+
+	<div id="modal-close" class="close-modal">
+		<a href="#"></a>
+	</div>
+	<div id="modal-content" data-show-links="false"></div>
+
+</div>
+
+<div id="overlay" class="close-modal">
+    <div class="spinner-container modal-spinner" style="display: none">
+        <div class="floatingBarsG">
+            <div class="blockG rotateG_01"></div>
+            <div class="blockG rotateG_02"></div>
+            <div class="blockG rotateG_03"></div>
+            <div class="blockG rotateG_04"></div>
+            <div class="blockG rotateG_05"></div>
+            <div class="blockG rotateG_06"></div>
+            <div class="blockG rotateG_07"></div>
+            <div class="blockG rotateG_08"></div>
+        </div>
+    </div>
+</div></div>
+
+    
+        
+        
+            
+
+
+
+
+
+<div class="livePersonWrapper">
+    <div id="lpButtonDiv"></div>
+</div>
+
+
+            
+                <div class="share">
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+<div class="share-wrapper no-print noindex">
+    <div class="container">
+        <div class="share-component">
+            <div id="social_actions">
+                <div id="icon_close" class="icon">
+                    <a href="#">Close</a>
+                </div>
+                <div id="icon_open" class="icon hidden">
+                    <a href="#">Open</a>
+                 </div>
+            </div>
+            <div id="social_icons">   
+                <div id="icon_facebook" class="icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html">Share on Facebook</a>
+                </div>
+                <div id="icon_twitter" class="icon">
+                    <a href="https://twitter.com/share?text=Nutrition%20during%20chemo&url=https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html&via=StanfordHealth">Twitter</a>
+                </div>
+                <div id="icon_google_plus" class="icon">
+                    <a href="https://plus.google.com/share?url=https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html">Google+</a>
+                </div>
+                <div id="icon_email" class="icon">
+                    <a href="mailto:?subject=Nutrition during chemo&body=Nutrition during chemo%0DLearn how to eat before and after chemotherapy, such as light and bland food before treatment, and small lower fat bland food after the procedure. - https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html">Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+            
+        
+    
+    <div id="main" aria-hidden="false" class="row-offcanvas row-offcanvas-left">
+        
+
+
+
+
+
+
+
+
+<div id="header" class="noindex ">
+    <div class="masthead">
+
+
+
+
+
+
+
+
+
+
+
+<div class="external-outage-alert external_outage_alert parbase">
+<div id="external-outage-alert" class="hide-alert">
+    <div class="alert-spacer-div">&nbsp</div>
+    <div class="outage-alert-content">
+        <div class="outage-alert-text">
+            <b class="alert-content-title">Notice: </b> Users may be experiencing issues with displaying some pages on stanfordhealthcare.org. We are working closely with our technical teams to resolve the issue as quickly as possible. Thank you for your patience.  
+        </div>
+        <div class="outage-alert-close">
+            <div class="alert-x-close"></div>
+        </div>
+    </div>
+</div></div>
+
+
+
+<div class="new-emergency-alert new_emergency_alert parbase">
+
+</div>
+
+
+<div class="masthead-affixed hidden-xs affix">
+    <div class="masthead-wrapper">
+        <div class="hamburger-menu-button">
+            <a class="menu-toggle static-menu-toggle" data-toggle="offcanvas" href="#" data-aa-sidebar-links="menu"><span
+                    class="hamburger-icon"></span><span class="hidden-xs">Menu</span></a>
+        </div>
+        <a id="shc-logo" class="" href="/" style="transform: translateY(8.5px); "/></a>
+        <div class="search-button">
+            <a class="search-toggle" href="#"><span class="hidden-xs">Search</span><span class="icon"></span></a>
+        </div>
+    </div>
+    <div class="leading-shadow"></div>
+</div>
+<div class="masthead-affixed mobile visible-xs">
+    <div class="hamburger-menu-button">
+        <a class="menu-toggle static-menu-toggle" data-toggle="offcanvas" href="#" data-aa-sidebar-links="menu"><span
+                class="hamburger-icon"></span><span class="hidden-xs">Menu</span></a>
+    </div>
+    <a id="shc-logo" class="" href="/" style=""></a>
+    <div class="search-button">
+        <a class="search-toggle" href="#"><span class="hidden-xs">Search</span><span class="icon"></span></a>
+    </div>
+</div>
+<div id="masthead-wrapper">
+    <div id="masthead" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul id="masthead-nav" class="hidden-xs">
+                        
+                        
+                            
+                            
+                            
+                                
+                                
+                                    
+                                        
+                                        
+                                        
+                                        
+
+                                        <li class="masthead-link">
+                                            <a href="/search-results.doctors.html" class="directory-link" data-aa-masthead-links="doctors">Doctors</a>
+                                        </li>
+
+                                    
+                                        
+                                        
+                                        
+                                        
+
+                                        <li class="masthead-link">
+                                            <a href="/search-results.clinics.html" class="directory-link" data-aa-masthead-links="clinics & locations">Clinics & Locations</a>
+                                        </li>
+
+                                    
+                                        
+                                        
+                                        
+                                        
+
+                                        <li class="masthead-link">
+                                            <a href="/search-results.conditions.html" class="directory-link" data-aa-masthead-links="conditions & treatments">Conditions & Treatments</a>
+                                        </li>
+
+                                    
+                                
+                            
+                        
+                        <li class="masthead-dropdown">
+                            <a data-toggle="1" href="#" data-aa-masthead-links="patients & visitors">Patients & Visitors<span class="carat"></span></a>
+                            <span class="carat-gray"></span>
+                        </li>
+                        <li class="masthead-dropdown">
+                            <a data-toggle="2" href="#" data-aa-masthead-links="myhealth">MyHealth<span class="carat"></span></a>
+                            <span class="carat-gray"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="drawers" class="masthead hidden-xs">
+
+    <div class="drawer standard-drawer" id="pv-drawer" data-drawer="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-7 border">
+                    <div class="drawer2-top parsys">
+</div>
+
+
+                    <div class="row">
+                        <div class="col-sm-6 leftside">
+                            <div class="drawer2-leftside parsys"><div class="masthead_link_list parbase section">
+
+
+
+
+
+    
+        <ul class="link-list first">
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/billing.html" data-aa-masthead-links="billing">Billing</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/health-insurance-plans.html" data-aa-masthead-links="insurance">Insurance</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/medical-records.html" data-aa-masthead-links="medical records">Medical Records</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/support-groups.html" data-aa-masthead-links="support groups">Support Groups</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/financial-assistance.html" data-aa-masthead-links="financial assistance">Financial Assistance</a>
+                </li>
+            
+        </ul>
+    
+    
+</div>
+
+</div>
+
+                        </div>
+                        <div class="col-sm-6 rightside">
+                            <div class="drawer2-rightside parsys"><div class="masthead_link_list parbase section">
+
+
+
+
+
+    
+        <ul class="link-list first">
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/locations-and-parking.html" data-aa-masthead-links="locations and parking">Locations and Parking</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/visiting-hours.html" data-aa-masthead-links="visiting hours">Visiting Hours</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/hospital-check-in.html" data-aa-masthead-links="hospital check-in">Hospital Check-in</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/for-patients-visitors/international-services.html" data-aa-masthead-links="international patients">International Patients</a>
+                </li>
+            
+                
+                <li>
+                    <a href="/about-us/contact.html" data-aa-masthead-links="contact us">Contact Us</a>
+                </li>
+            
+        </ul>
+    
+    
+</div>
+
+</div>
+
+                        </div>
+                    </div>
+
+                    <div class="drawer2-bottom parsys"><div class="masthead_menu_link parbase section">
+
+
+
+
+
+
+
+    
+
+
+    
+    
+        
+    
+
+
+
+
+<a href="/for-patients-visitors.html" class="mastheadMenuBold mastheadMenuNoUnderline" data-aa-masthead-links="view all information for patients & visitors">View All Information for Patients & Visitors »</a></div>
+
+</div>
+
+                </div>
+                <div class="col-md-4 col-sm-5">
+                    <div class="drawer2-right parsys"><div class="masthead_contact parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="masthead-contact-container">
+
+    <div class="masthead-contact-title">We are available to assist you 24/7.</div>
+
+    <div class="masthead-contact-phone">
+        <div class="masthead-contact-phone-icon"></div>
+        <div class="masthead-contact-phone-text" data-aa-masthead-links="650-498-3333">650-498-3333</div>
+    </div>
+
+    <div class="masthead-contact-email">
+        <div class="masthead-contact-email-icon"></div>
+        <a class="masthead-contact-email-text" href="mailto:GuestServices@stanfordhealthcare.org" data-aa-masthead-links="guestservices@stanfordhealthcare.org">GuestServices@stanfordhealthcare.org</a>
+    </div>
+</div></div>
+<div class="liveperson parbase section">
+
+
+
+
+
+
+<div id="lpchathead"></div>
+</div>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="drawer" id="my-health-drawer" data-drawer="2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-7">
+                    <div class="drawer1-top parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h2>New to MyHealth?</h2>
+<p><b>Manage Your Care From Anywhere.</b></p>
+<p>Access your health information from any device with MyHealth.  You can message your clinic, view lab results, schedule an appointment, and pay your bill.</p>
+
+    </div>
+
+
+</div>
+<div class="columns parbase section">
+
+
+
+
+<div class="container">
+    <div class="row ">
+        
+        
+        
+
+            
+
+            
+                <div class="col-sm-6">
+                    <div class="parsysleft parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h4>ALREADY HAVE AN ACCESS CODE?</h4>
+
+    </div>
+
+
+</div>
+<div class="button parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+        
+            <div class="btn-alignment-container Left">
+        
+        <div class="generic-button-wrapper" >
+            <a href="https://myhealth.stanfordhealthcare.org/Activation/Lookup" target="_blank" class="button-component  btn btn-White Text on Blue " clinic-name="" doctor-name="">
+                 
+                Activate Account
+            </a>
+        </div>
+        
+            </div>
+        
+    
+
+</div>
+
+</div>
+
+                    <span class="column-border hidden-xs " style="height: px; top: px;"></span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="parsyscenter parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h4>DON'T HAVE AN ACCESS CODE?</h4>
+
+    </div>
+
+
+</div>
+<div class="button parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+        
+            <div class="btn-alignment-container Left">
+        
+        <div class="generic-button-wrapper" >
+            <a href="https://myhealth.stanfordhealthcare.org/Signup/Online" target="_blank" class="button-component  btn btn-White Text on Blue " clinic-name="" doctor-name="">
+                 
+                Create a New Account
+            </a>
+        </div>
+        
+            </div>
+        
+    
+
+</div>
+
+</div>
+
+                </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+    </div>
+</div>
+</div>
+
+</div>
+
+                    <hr/>
+                    <div class="drawer1-bottom parsys"><div class="columns parbase section">
+
+
+
+
+<div class="container">
+    <div class="row ">
+        
+        
+        
+
+            
+
+            
+                <div class="col-sm-6">
+                    <div class="parsysleft parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h4>NEED MORE DETAILS?</h4>
+<p><b><a adhocenable="false" href="/for-patients-visitors/myhealth.html">Learn More about MyHealth »</a></b></p>
+
+    </div>
+
+
+</div>
+
+</div>
+
+                    <span class="column-border hidden-xs " style="height: px; top: px;"></span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="parsyscenter parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h4>MyHealth for Mobile</h4>
+<p><b><a adhocenable="false" href="https://itunes.apple.com/us/app/stanford-health-care-myhealth/id922978966?mt=8" target="_blank">Get the iPhone MyHealth app »<br />
+</a></b><a adhocenable="false" href="https://play.google.com/store/apps/details?id=org.stanfordhealthcare.myhealth" target="_blank">Get the Android MyHealth app »</a></p>
+
+    </div>
+
+
+</div>
+
+</div>
+
+                </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+    </div>
+</div>
+</div>
+
+</div>
+
+                </div>
+                <div class="col-md-4 col-sm-5">
+                    <div class="drawer1-right parsys"><div class="myhealth_login parbase section">
+
+
+
+
+
+<div id="my-health-login">
+    <div class="clearfix">
+        <h4>
+            WELCOME BACK
+        </h4>
+        <span class="lock-icon"></span>
+    </div>
+    <form method="POST" action="https://myhealth.stanfordhealthcare.org/">
+        <input type="text" name="id" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="submit" value="Sign In" data-aa-masthead-links="sign in"/>
+    </form>
+    <div class="forgot-links">
+        <a href="https://myhealth.stanfordhealthcare.org/Credentials/ForgotUsername" data-aa-masthead-links="forgot id">Forgot Username</a> or <a href="https://myhealth.stanfordhealthcare.org/Credentials/ForgotPassword" data-aa-masthead-links="forgot password">Password?</a>
+    </div>
+    
+        <a href="https://myhealth.stanfordhealthcare.org/ContactHelpDesk" data-aa-masthead-links="need help?">Need Help?</a>
+    
+</div>
+</div>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+    
+    
+
+    <div id="search-inpagenav-wrapper"  >
+        <div id="search-inpagenav">
+            <div class="megasearch parbase">
+
+
+
+
+<div id="search-container" class="container ">
+    
+
+            
+    
+
+    <div id="search-row" class="row hidden">
+        
+        <div class="search-right-side">
+            <span id="search-magnifying-glass"></span>
+            <h1 id="shc-search-title"
+                data-page-path="https://stanfordhealthcare.org/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html"
+                data-page-template="/apps/shc/templates/hubdetail">
+            </h1>
+            <div id="search-input-container" style="display:none">
+                <form role="form" id="search-form" autocomplete="off" action="/search-results.html">
+                    <div id="search-input-wrapper">
+                        <span class="searchbar-magnifying-glass"></span>
+                        <input type="text" disabled="disabled" id="prediction">
+                        <input type="text" id="search-term">
+                        <div id="search-clear"><a href="#"><span class="visible"></span></a><span>Clear</span></div>
+                    </div>
+                    
+                        <div id="search-pulldown" >
+                            <div id="dropdown-tabbar"></div>
+                            <div id="dropdown-filter"></div>
+                            <div id="dropdown-predict"></div>
+                        </div>
+                    
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <div class="search-container-shadow">
+    </div>
+    <div id="click-screen" style="opacity:0;display:none;" class="modal-backdrop fade in"></div>
+    
+    
+        <h1 class="shc-page-title ">
+            
+                Nutrition Services for Cancer Patients
+                
+            
+        </h1>
+    
+</div>
+</div>
+
+        </div>
+    </div>
+    
+        
+        
+        
+        
+            <div class="hidden-xs">
+                <div class="inpagenav in_page_nav parbase">
+
+
+
+
+<nav id="in-page-nav-wrapper">
+    <div id="in-page-nav" class="container" style="display:none">
+        <div class="row">
+            <div class="col-sm-12" id="in-page-nav-list-wrapper">
+                <ul class="nav">
+                    
+                    <li class="active">
+                        <a href="#about" class="nav-button">
+                            
+                                
+                                
+                                    About
+                                
+                            
+                        </a>
+                        <a href="#" class="drop-down-button">
+                            <span></span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="in-page-nav-shadow"></div>
+                </div>
+            </div>
+            <div id="drop-nav-wrapper" class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="drop-nav">
+                             
+                            <li class="active">
+                                <a href="#about">
+                                    
+                                        
+                                        
+                                            About
+                                        
+                                    
+                                </a>
+                            </li>
+                             
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="in-page-nav-shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav></div>
+
+            </div>
+        
+    
+    
+</div>
+<div id="about_" style="height: 0;"></div>
+        <div id="main-container">
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+
+<div class="main-parsys iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="main-parsys iparsys parsys"></div>
+</div>
+</div>
+
+<!-- condition details page -->
+<div id="hubdetail-page-content" class="clinicl2">
+    
+        <div class="shared-top-content-iparsys iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="shared-top-content-iparsys iparsys parsys"><div class="clearfix section" id="marquee">
+
+
+
+
+
+<div class="container ">
+    <div class="marquee-wrapper clearfix">
+        <div class="row narrow clearfix">
+            <div class="col-sm-12">
+                <div class="tile-marquee-content clearfix">
+                    
+                    <div class="part-of">
+                            
+                            <a href="/medical-clinics/cancer-center.html"/>Cancer Center</a></div>
+                            
+                        
+                        <div class="marquee-content parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h2>Nutrition Services for Cancer Patients</h2>
+<p>Nutrition is an important part of life, cancer treatment, recovery, and prevention. Food is one of the few things you can be in control of during your treatment. The <a adhocenable="false" href="/medical-clinics/cancer-nutrition-services/care-team.html">oncology certified registered dietitians</a> at the Stanford Cancer Center are here to help you make informed choices about nutrition, answer your nutrition-related questions, and help you to achieve and maintain good health.</p>
+
+    </div>
+
+
+</div>
+<div class="l3_blob title section">
+
+
+
+
+
+
+<div class="l3-blob-wrapper row">
+    
+    <div class="col-sm-12">
+        <div class="section-title">Services Available at These Locations (2)</div>
+    </div>
+    <div class="col-sm-12">
+        <ul>
+            <li>
+                <a href="/medical-clinics/cancer-nutrition-services.multimapmodal.html" class="open-modal">See All Locations &raquo; </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</div>
+<div class="link parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+    
+    
+        <div class="">
+    
+
+    
+    
+        
+    
+    <div style="margin:15px 0px -5px 0px; overflow: hidden;">
+        
+            
+            
+        
+
+
+        
+        
+        
+        
+        
+        
+
+        
+            
+                
+                    
+                
+                
+            
+            
+                <div class="icon pdf"></div>
+            
+            
+            
+            
+            <div class="link-container">
+                    <strong><a href="/content/dam/SHC/for-patients-component/cancer/Stanford-Hospital-Cancer-Patient-Family-Resource-Guide.pdf" class="icon-link   " alt="" target="_blank" data-modalcontainer="" associated-with="" clinic-name="" doctor-name="" organization="" care-type="">
+                    
+                    Patient and Family Resource Guide
+            </a></strong>
+            </div>
+        
+
+        
+    </div>
+</div>
+</div>
+
+</div>
+
+                            
+                </div>
+
+                <div class="tile-marquee-tiles clearfix">
+
+                    <div class="tile-board clearfix">
+
+
+
+
+<div class="tile-board-parsys parsys"><div class="section parbase basic-tile tile">
+
+
+
+
+
+
+
+
+
+
+
+<div class=" text-centered">
+
+    
+    
+
+        
+        
+            <div class="tile-box-overlay-bg tile-color-8c1515"></div>
+        
+            <div class="tile-box-overlay ">
+            
+                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html" class="tile-box-overlay-text open-modal tile-shadow-8c1515 " data-modalcontainer=".make-an-appt">
+                    Make an appointment
+                </a>
+            
+            
+        </div>
+           
+    
+</div>
+
+
+
+</div>
+<div class="section parbase basic-tile tile">
+
+
+
+
+
+
+
+
+
+
+
+<div class=" full-image has-image">
+
+    
+    
+
+        
+            
+            
+            
+                <div class="tile-image">
+                       <img alt="" class="" title="sci-logo-stacked-web-tile.png" src="/content/shc/en/medical-clinics/cancer-nutrition-services/_jcr_content/shared-top-content-iparsys/droppable_marquee/tiles/tile-board-parsys/tile_1/image.transform/221x221/q82/image.png"/>
+                </div>
+             
+            
+        
+        
+            <div class="tile-box-overlay ">
+            
+            
+                
+                
+                     
+                     <a href="/campaigns/stanford-cancer-institute.html" class="tile-box-overlay-text tile-shadow-blank  " data-modalcontainer="#pv-detail-page" data-presentation-container=".article-presentation">
+                    	
+                	</a>
+                     
+                
+            
+        </div>
+           
+    
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+<div class="general_container parbase section">
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="default ">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="parsyscontainer parsys"><div class="shc-title section">
+
+
+    
+        
+        
+            <div class="container  ">
+        
+    
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+            
+            
+            
+                <h2 id="caretreatment_" data-nav="Care & Treatment" data-nav-show="true" class="scroll-adjust    " align="left">Care and Treatment</h2>
+            
+        
+    </div>
+</div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+</div></div>
+</div>
+</div>
+</div>
+
+    
+    <div class="top-of-the-page-parsys iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="top-of-the-page-parsys iparsys parsys"></div>
+</div>
+</div>
+
+    <div class="container">
+        
+            
+            
+                <div class="row side-nav-parent" id="tab-nav-no-quicknav">
+            
+        
+            
+                <div id="side-nav" style="display:none" >
+                    <div class="sidenav-iparsys custom_iparsys parsys">
+<div class="section"></div><div class="iparys_inherited"><div class="sidenav-iparsys custom_iparsys parsys">
+<div class="side_navlinks parbase section">
+
+
+
+
+
+
+<nav>    
+    <div class="noindex">
+        
+
+
+
+<div id="tab-nav-mobile" class="no-print visible-xs side-nav-mobile">
+    <div id="mobile-tabs">
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading first-tab">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services.html" class="mobile-tab-heading-link">Overview</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                </div>
+            
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading ">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services/care-team.html" class="mobile-tab-heading-link">Your Dietitians</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                </div>
+            
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading ">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk.html" class="mobile-tab-heading-link">Reducing Cancer Risk</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                        
+                        
+                            <div class="panel-collapse collapse"><ul>
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/food-guide-pyramid.html" class="">Food guide pyramid</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/dietary-guidelines-americans.html" class="">Dietary guidelines for Americans</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/5-a-day-better-health.html" class="">5 Fruits for Better Health - Cancer Nutrition</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/antioxidants.html" class="">Antioxidants</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/omega-3-fatty-acids.html" class="">Omega-3 fatty acids</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/phytochemicals.html" class="">Phytochemicals</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/exercise.html" class="">Exercise</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="#.html" class="side-nav-subheading">Cancer prevention nutrition guides</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/breast-cancer-prevention.html" class="">Breast cancer prevention</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/colorectal-cancer-prevention-diet.html" class="">Colorectal cancer prevention</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/prostate-cancer-prevention.html" class="">Prostate cancer prevention</a>
+                            </li>
+                        
+                        </ul></div>
+                    
+                </div>
+            
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading ">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services/before-cancer-treatment.html" class="mobile-tab-heading-link">Before Cancer Treatment</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                </div>
+            
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading ">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment.html" class="mobile-tab-heading-link">Cancer Diet During Treatment</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                        
+                        
+                            <div class="panel-collapse collapse"><ul>
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/food-safety-during-cancer-treatment.html" class="">Food safety during cancer treatment</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/organic-produce.html" class="">Organic produce</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/making-vegetables-taste-good.html" class="">Making vegetables taste good</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/high-protein-foods.html" class="">High protein foods</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/high-calorie-snacks.html" class="">High calorie snacks</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/clear-full-liquids.html" class="">Clear liquids and full liquids</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/enteral-parenteral-adult-nutrition.html" class="">Enteral and parenteral nutrition for adults</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/exercise-for-appetite-and-digestion.html" class="">Exercise for appetite and digestion</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/lactose-intolerance.html" class="">Lactose intolerance</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/increasing-calories-and-protein-with-lactose-free-foods.html" class="">Increasing calories and protein (low to no lactose)</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html" class="">Nutrition during chemo</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-radiation-therapy.html" class="">Nutrition during radiation therapy</a>
+                            </li>
+                        
+                        </ul></div>
+                    
+                </div>
+            
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading ">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects.html" class="mobile-tab-heading-link">Managing Treatment Side Effects</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                        
+                        
+                            <div class="panel-collapse collapse"><ul>
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/nausea-vomiting.html" class="">Nausea and vomiting</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/diarrhea.html" class="">Diarrhea</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/constipation.html" class="">Constipation</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/chewing-swallowing.html" class="">Chewing / swallowing</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/taste-alterations.html" class="">Taste alterations</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/appetite-loss.html" class="">Appetite loss</a>
+                            </li>
+                        
+                        
+                    
+                        
+                        
+                            
+                            
+                            <li>
+                                <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/gas-and-bloating.html" class="">Gas and bloating</a>
+                            </li>
+                        
+                        </ul></div>
+                    
+                </div>
+            
+        
+            
+                <div class="panel menu-expanded">
+                    <div class="mobile-tab-heading ">
+                        
+                            
+                            
+                                <a href="/medical-clinics/cancer-nutrition-services/resources.html" class="mobile-tab-heading-link">Resources</a>
+                            
+                        
+                        <a href="#" class="arrow collapsed"><span class="tab-heading-carat"></span></a>
+                    </div>
+                    
+                    
+                </div>
+            
+        
+    </div>
+</div>
+
+        
+
+
+
+<div id="tab-nav" class="hidden-xs side-nav">
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services.html" class="tab-heading-link">Overview<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+            </div>
+        
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services/care-team.html" class="tab-heading-link">Your Dietitians<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+            </div>
+        
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk.html" class="tab-heading-link">Reducing Cancer Risk<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+                    
+                    
+                        <div class="panel-collapse collapse"><ul>
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/food-guide-pyramid.html" class="">Food guide pyramid</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/dietary-guidelines-americans.html" class="">Dietary guidelines for Americans</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/5-a-day-better-health.html" class="">5 Fruits for Better Health - Cancer Nutrition</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/antioxidants.html" class="">Antioxidants</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/omega-3-fatty-acids.html" class="">Omega-3 fatty acids</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/phytochemicals.html" class="">Phytochemicals</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/exercise.html" class="">Exercise</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="#.html" class="side-nav-subheading">Cancer prevention nutrition guides</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/breast-cancer-prevention.html" class="">Breast cancer prevention</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/colorectal-cancer-prevention-diet.html" class="">Colorectal cancer prevention</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/reducing-cancer-risk/prostate-cancer-prevention.html" class="">Prostate cancer prevention</a>
+                        </li>
+                    
+                    </ul></div>
+                
+            </div>
+        
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services/before-cancer-treatment.html" class="tab-heading-link">Before Cancer Treatment<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+            </div>
+        
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment.html" class="tab-heading-link">Cancer Diet During Treatment<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+                    
+                    
+                        <div class="panel-collapse collapse"><ul>
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/food-safety-during-cancer-treatment.html" class="">Food safety during cancer treatment</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/organic-produce.html" class="">Organic produce</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/making-vegetables-taste-good.html" class="">Making vegetables taste good</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/high-protein-foods.html" class="">High protein foods</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/high-calorie-snacks.html" class="">High calorie snacks</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/clear-full-liquids.html" class="">Clear liquids and full liquids</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/enteral-parenteral-adult-nutrition.html" class="">Enteral and parenteral nutrition for adults</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/exercise-for-appetite-and-digestion.html" class="">Exercise for appetite and digestion</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/lactose-intolerance.html" class="">Lactose intolerance</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/increasing-calories-and-protein-with-lactose-free-foods.html" class="">Increasing calories and protein (low to no lactose)</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-chemo.html" class="">Nutrition during chemo</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/during-cancer-treatment/nutrition-during-radiation-therapy.html" class="">Nutrition during radiation therapy</a>
+                        </li>
+                    
+                    </ul></div>
+                
+            </div>
+        
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects.html" class="tab-heading-link">Managing Treatment Side Effects<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+                    
+                    
+                        <div class="panel-collapse collapse"><ul>
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/nausea-vomiting.html" class="">Nausea and vomiting</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/diarrhea.html" class="">Diarrhea</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/constipation.html" class="">Constipation</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/chewing-swallowing.html" class="">Chewing / swallowing</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/taste-alterations.html" class="">Taste alterations</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/appetite-loss.html" class="">Appetite loss</a>
+                        </li>
+                    
+                    
+                
+                    
+                    
+                        
+                        
+                        <li>
+                            <a href="/medical-clinics/cancer-nutrition-services/managing-side-effects/gas-and-bloating.html" class="">Gas and bloating</a>
+                        </li>
+                    
+                    </ul></div>
+                
+            </div>
+        
+    
+        
+            <div class="panel">
+                <div class="tab-heading">
+                    
+                        
+                        
+                            <a href="/medical-clinics/cancer-nutrition-services/resources.html" class="tab-heading-link">Resources<span
+                                    class="tab-heading-carat"></span></a>
+                        
+                    
+                    <span class="hiddenoverride"></span>
+                </div>
+                
+                
+            </div>
+        
+    
+</div>
+
+    </div>
+</nav></div>
+
+</div>
+</div>
+
+
+</div>
+
+                </div>
+                <div id="tabbed-nav-content-wrapper" class="with-sidenav">
+                    <div class="tab-nav-component tab_nav">
+
+
+
+
+
+
+
+
+<div class="spinner-container" style="display: none">
+    <div class="floatingBarsG">
+        <div class="blockG rotateG_01"></div>
+        <div class="blockG rotateG_02"></div>
+        <div class="blockG rotateG_03"></div>
+        <div class="blockG rotateG_04"></div>
+        <div class="blockG rotateG_05"></div>
+        <div class="blockG rotateG_06"></div>
+        <div class="blockG rotateG_07"></div>
+        <div class="blockG rotateG_08"></div>
+    </div>
+</div>
+
+
+
+
+
+
+<div id="tab-navigation_" class="embedded-anchor clinic-with-h2"></div>
+<div id="tabbed-nav">
+    
+        
+        
+        	<div class="tab-nav-parsys parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h2>Diet for Cancer Patients During Chemotherapy</h2>
+
+    </div>
+
+
+</div>
+<div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <p>It is recommended that you eat lightly on your chemotherapy day. Eating small portions slowly and every few hours seem to work best. Avoid skipping meals on these days and eating fatty, greasy or spicy foods.</p>
+<h3>What do I eat before going to chemotherapy?</h3>
+<p>Light, bland foods seem to work best. Some examples of choices are:</p>
+<ul>
+<li>Plain or Fruited yogurt</li>
+<li>Fresh fruit and cottage cheese</li>
+<li>Poached egg and toast</li>
+<li>Toasted bagel with a small amount of peanut butter</li>
+<li>Cereal and milk (try Lactaid® milk, or Soy milk, if lactose intolerant)</li>
+<li>Chicken rice soup with saltine crackers</li>
+</ul>
+<p>During chemotherapy take a small, bland snack with you. You can try the above foods as well as snack on low acid juices (apple, grape, and fruit nectars), liquid yogurts, fruits such as bananas, and crackers. Bring a water bottle and fill it with your favorite beverage (avoid acidic foods which may be irritating to your digestive tract).</p>
+<p>Juices and supplements as Ensure or Boost are usually available where you are receiving chemotherapy;<br />
+however ask in advance if these and any other foods are available. If you don’t feel like eating during the<br />
+infusion that is ok, but remember that you may feel better with eating small amounts of bland food and liquids.</p>
+<p>Drink small amounts every ½ hour as tolerated.</p>
+<h3>What do I eat after chemotherapy and for the next few days?</h3>
+<ul>
+<li>Eat small meals and snacks throughout the day (aim for 5-6 smaller meals rather than 3 large meals).</li>
+<li>Eat lower fat, blander foods!</li>
+<li>Try colder or cool foods – these give off less odor and aroma and are especially important if you feel nauseous. Hot foods can have a more pronounced odor, therefore causing an aversion to certain foods.</li>
+<li>Drink fluids frequently—this will prevent dehydration and remove some of the byproducts of the chemotherapy. Water is the best, but there are other sources of fluids such as:<ul>
+<li>Apple and grape juice</li>
+<li>Fruit nectars</li>
+<li>Low-salt broth</li>
+<li>Clear soups</li>
+<li>Gatorade</li>
+<li>Popsicles and sherbert</li>
+<li>Gelatin</li>
+<li>Herbal teas, such as ginger and mint</li>
+<li>Weak black teas</li>
+</ul>
+</li>
+<li>Take your anti-nausea medication as prescribed by your medical team.<br />
+</li>
+</ul>
+<p>Make an appointment today with one of our <a adhocenable="false" href="/medical-clinics/cancer-nutrition-services/care-team.html">cancer dietitians</a> to begin managing your nutrition.</p>
+<p><b>Source</b></p>
+<p>Adapted from: The American Cancer Society</p>
+
+    </div>
+
+
+</div>
+<div class="button parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+        
+        <div class="generic-button-wrapper" >
+            <a href="/content/dam/SHC/programs-services/cancer-nutrition/docs/chemotherapy-nutrition-facts.pdf" target="_blank" class="button-component  btn btn-primary " associated-with="" clinic-name="" doctor-name="" organization="" care-type="">
+                 
+                Download PDF version
+            </a>
+        </div>
+        
+    
+
+</div>
+
+</div>
+
+        
+    
+</div></div>
+
+                    <!--<div class="quick-nav-bar quick-nav-bar-large visible-md visible-lg clearfix">
+                        <a href="#" class="quick-nav-prev">Previous Section</a>
+                        <a href="#" class="quick-nav-next">Next Section</a>
+                      </div>-->
+                    <div class="outer-quick-nav-bar hidden">
+                        <div class="quick-nav-bar">
+                            <div class="quick-nav-bar-buffer">
+                                <a href="#" class="quick-nav-prev"><span></span>Previous Section</a>
+                                <a href="#" class="quick-nav-next">Next Section<span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div> 
+    </div>
+    <div class="trials-iparsys custom_iparsys parsys">
+<div class="section"></div><div class="iparys_inherited"><div class="trials-iparsys custom_iparsys parsys">
+
+</div>
+</div>
+
+
+</div>
+
+    <div class="shared-content-iparsys iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="shared-content-iparsys iparsys parsys"></div>
+</div>
+</div>
+
+    <div class="shared-bottom-content-iparsys iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="shared-bottom-content-iparsys iparsys parsys"><div class="general_container parbase section">
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="default ">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="parsyscontainer parsys">
+</div>
+
+            </div>
+        </div>
+    </div>
+</div></div>
+<div class="shc-title section">
+
+
+    
+        
+        
+            <div class="container  ">
+        
+    
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+            
+            
+            
+                <h2 id="recipes_" data-nav="Recipes" data-nav-show="true" class="scroll-adjust    " align="left">Recipes</h2>
+            
+        
+    </div>
+</div>
+<div class="columns parbase section">
+
+
+
+
+<div class="container">
+    <div class="row ">
+        
+        
+        
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                <div class="col-sm-8">
+                    <div class="parsysleft parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h3>Cancer Fighting Recipe of the Week: Week 3</h3>
+<p>In honor of <a adhocenable="false" href="/stanford-health-care-now.html">Colon Cancer Awareness month</a>, we'll be featuring four colorectal cancer friendly recipes each week during the month of March.</p>
+<p><b>Basil Broccoi</b></p>
+<p>Broccoli, cabbage, collard greens, kale, cauliflower and Brussels sprouts are all cruciferous vegetables. This vegetable family contains powerful phytochemicals, including carotenoids, indoles and glucosinolates and isothiocyanates, which have been studied and shown to slow the growth of many cancers.<br />
+</p>
+
+    </div>
+
+
+</div>
+<div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-12"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/colon-cancer-diet-basil-broccoli-recipe.html">Get the recipe »</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                    <span class="column-border hidden-xs " style="height: px; top: px;"></span>
+                </div>
+                <div class="col-sm-4">
+                    <div class="parsyscenter parsys"><div class="image parbase section"><div id="cq-image-jsp-/content/shc/en/medical-clinics/cancer-nutrition-services/jcr:content/shared-bottom-content-iparsys/columns/parsyscenter/image"><a href="/medical-clinics/cancer-nutrition-services/recipes/colon-cancer-diet-basil-broccoli-recipe.html"><img src="/content/shc/en/medical-clinics/cancer-nutrition-services/_jcr_content/shared-bottom-content-iparsys/columns/parsyscenter/image.img.jpg/1490219832135.jpg" alt="basil-broccoli.jpg" title="basil-broccoli.jpg" class="cq-dd-image"/></a></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/shc\/en\/medical\u002Dclinics\/cancer\u002Dnutrition\u002Dservices\/jcr:content\/shared\u002Dbottom\u002Dcontent\u002Diparsys\/columns\/parsyscenter\/image");
+        var imageEvars = '{ imageLink: "/content/shc/en/medical-clinics/cancer-nutrition-services/recipes/colon-cancer-diet-basil-broccoli-recipe", imageAsset: "/content/dam/SHC/programs-services/cancer-nutrition/images/basil-broccoli.jpg", imageTitle: "basil\u002Dbroccoli.jpg" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+
+                </div>
+            
+
+        
+    </div>
+</div>
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Breakfast Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/apple-muffins.html">Apple Muffins</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/baked-oatmeal.html">Baked Oatmeal</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/banana-bran-muffins.html">Banana Bran Muffins</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/banana-oatmeal-hot-cakes.html">Banana-Oatmeal Hot Cakes</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/multigrain-pancakes-strawberry-sauce.html">Multigrain Pancakes with Strawberry Sauce</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/orange-bran-flax-muffins.html">Orange Bran Flax Muffins</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spring-vegetable-frittata.html">Spring Vegetable Frittata</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/whole-wheat-blueberry-muffins.html">Whole Wheat Blueberry Muffins</a></li></ul></div>
+<div class="col-sm-4"><ul></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Appetizer Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-6"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pesto-toastini.html">Pesto Toastini</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/fiesta-quesadillas-black-beans.html">Fiesta Quesadillas with Black Beans</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/skewered-shrimp-chicken-pineapple.html">Skewered Shrimp, Chicken and Pineapple with Honey Orange Dipping Sauce</a></li></ul></div>
+<div class="col-sm-6"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/stuffed-mushrooms-jalapeno-cornbread.html">Stuffed Mushrooms & Jalapeño Cornbread</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/zucchini-bites.html">Zucchini Bites</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Soup and Salad Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/asparagus-scallion-soup-almonds.html">Asparagus and Scallion Soup with Almonds</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/black-bean-corn-salad.html">Black Bean and Corn Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/broccoli-sunflower-salad.html">Broccoli Sunflower Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/butternut-squash-soup.html">Butternut Squash Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/california-citrus-greens-salad-with-garlic-dressing.html">California Citrus Greens Salad with Garlic Dressing</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/carrot-apple-soup.html">Carrot and Apple Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/creamy-irish-soup.html">Creamy Irish Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/crunchy-chicken-salad.html">Crunchy Chicken Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/curried-chicken-salad.html">Curried Chicken Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/curried-chickpea-salad.html">Curried Chickpea Salad with Walnuts</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pea-soup-tarragon.html">Easy Pea Soup with Tarragon</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/egyptian-red-lentil-soup.html">Egyptian Red Lentil Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/fall-stew-pumpkin.html">Fall Stew in a Pumpkin with Poblano-Cucumber Salsa</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/golden-fruit-salad.html">Golden Fruit Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/hawaiian-star-soup.html">Hawaiian Star Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/hearty-vegetable-brown-rice-soup.html">Hearty Vegetable and Brown Rice Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/hot-and-sour-soup.html">Hot and Sour Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/lentil-sweet-potato-soup.html">Lentil Sweet Potato Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/marinated-artichoke-potato-salad.html">Marinated Artichoke Potato Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/melon-salad.html">Melon Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cucumber-quinoa-grape-salad.html">Minty Cucumber-Quinoa-Grape Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/mulligatawny-soup.html">Mulligatawny Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/papaya-chicken-pecan-salad.html">Papaya, Chicken and Pecan Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pluot-summer-salad.html">Pluot Summer Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pomegranate-salad.html">Pomegranate Salad</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pumpkin-bisque.html">Pumpkin Bisque</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/roasted-asparagus-salad.html">Roasted Asparagus Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/salmon-salad-pimento-herbs.html">Salmon Salad with Pimento and Herbs</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/carrot-beet-salad.html">Shredded Carrot and Beet Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spicy-black-bean-salad.html">Spicy Black Bean Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spinach-salad-strawberry-vinaigrette.html">Spinach Salad with Strawberry Vinaigrette</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spinach-red-bell-pepper-feta-cheese-salad-yogurt-dressing.html">Spinach, Red Bell Pepper and Feta Cheese Salad with Yogurt Dressing</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spring-pea-soup.html">Spring Pea Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/summer-rice-salad.html">Summer Rice Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/sweet-spicy-carrot-salad.html">Sweet and Spicy Carrot Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/vegetable-soup.html">Vegetable Soup</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/whole-grain-salad.html">Whole Grain Salad</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">  </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Main Course and Entrée Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/10-minute-italian-chicken-stir-fry.html">10 Minute Italian Chicken Stir Fry</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/anytime-burrito.html">Anytime Burrito</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/baked-tofu-kabobs.html">Baked Tofu Kabobs</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/barley-turkey-butternut-squash-casserole.html">Barley, Turkey & Butternut Squash Casserole</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/bean-vegetable-enchilada-casserole.html">Bean and Vegetable Enchilada Casserole</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/bean-surprise.html">Bean Surprise</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/broiled-portobello-mushrooms.html">Broiled Portobello Mushrooms</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cajun-salmon-over-polenta.html">Cajun Salmon over Polenta</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/chicken-chili.html">Chicken Chili</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/chicken-enchilada-casserole.html">Chicken Enchilada Casserole</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cranberry-salmon.html">Cranberry Salmon</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cranberry-turkey-salad-sandwiches.html">Cranberry-Turkey Salad Sandwiches</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/crispy-parmesan-turkey-cutlets.html">Crispy Parmesan Turkey Cutlets</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/crunchy-veggie-wrap.html">Crunchy Veggie Wrap</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/easy-spinach-lasagna.html">Easy Spinach Lasagna</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/eating-well-sloppy-joe.html">Eating Well Sloppy Joe</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/egg-spinach-bacon-sandwiches.html">Egg, Spinach, and Bacon Sandwiches</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/fish-filet-squash-herbs.html">Fish Filet with Squash and Herbs</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/greek-style-scallops.html">Greek-Style Scallops</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/grilled-ginger-tuna.html">Grilled Ginger Tuna</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/grilled-halibut-tomato-herb-sauce.html">Grilled Halibut with a Tomato-Herb Sauce</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/grilled-portobello-burgers.html">Grilled Portobello Burgers</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/grilled-vegetable-polenta-pan-roasted-red-pepper-tomato-sauce.html">Grilled Vegetable Polenta with Pan Roasted Red Pepper and Tomato Sauce</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/halibut-citrus-garlic.html">Halibut with Citrus and Garlic</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/healthy-jambalaya.html">Healthy Jambalaya</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/hearty-beef-stew-winter-vegetables.html">Hearty Beef Stew with Winter Vegetables</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/hearty-mediterranean-stew.html">Hearty Mediterranean Stew</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/herbed-polenta-grilled-portobello-mushrooms.html">Herbed Polenta with Grilled Portobello Mushrooms</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/indonesian-salmon.html">Indonesian Salmon</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/lasagna-rolls.html">Lasagna Rolls</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/lemon-dijon-salmon.html">Lemon Dijon Salmon</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/mediterranean-grilled-veggie-pockets.html">Mediterranean Grilled Veggie Pockets</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/molasses-cured-pork-loin-apples.html">Molasses-Cured Pork Loin with Apples</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/mushroom-goulash.html">Mushroom Goulash</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/tetrazzini-casserole.html">New American Plate "Tetrazzini" Casserole</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/new-tuna-salad.html">New Tuna Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/peppers-stuffed-barley-parmesan-onion.html">Peppers Stuffed with Barley, Parmesan and Onion</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pizza-meat-loaf.html">Pizza Meat Loaf</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pumpkin-gnocchi.html">Pumpkin Gnocchi</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/quinoa-mushroom-pilaf-dill.html">Quinoa and Mushroom Pilaf with Dill</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/quinoa-stuffed-peppers.html">Quinoa Stuffed Peppers</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/roasted-pork-tenderloin-maple-mustard-sauce.html">Roasted Pork Tenderloin with Maple Mustard Sauce</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/scallion-crusted-arctic-char.html">Scallion Crusted Arctic Char</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/seared-scallops.html">Seared Scallops with Beet Puree and Arugula Salad</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/soft-tacos-southwestern-vegetables.html">Soft Tacos with Southwestern Vegetables</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spaghetti-alla-carbonara.html">Spaghetti alla Carbonara</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/speedy-summer-ratatouille.html">Speedy Summer Ratatouille</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spicy-broccoli-cauliflower-tofu.html">Spicy Broccoli, Cauliflower and Tofu</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/steamed-halibut-spinach.html">Steamed Halibut on Spinach with Lemon Sauce</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/stuffed-cornish-hens.html">Stuffed Cornish Hens</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/summer-tofu-kebab-with-peanut-sauce.html">Summer Tofu Kebab with Peanut Sauce</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/sweet-sour-chicken.html">Sweet and Sour Chicken</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/sweet-sour-tofu.html">Sweet and Sour Tofu</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/tofu-cutlets-marsala.html">Tofu Cutlets Marsala</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/turkey-cranberry-wrap.html">Turkey & Cranberry Wrap</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/turkey-reuben-grilled-sandwiches.html">Turkey Reuben Grilled Sandwiches</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/udon-noodles-spicy-peanut-ginger-sauce.html">Udon Noodles with Spicy Peanut Ginger Sauce</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/veggie-pita-pizzas.html">Veggie Pita Pizzas</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/white-wine-coq-au-vin.html">White Wine Coq au Vin</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/whole-wheat-pasta.html">Whole Wheat Pasta with Fennel, Peas and Arugula</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/zesty-roasted-chicken.html">Zesty Roasted Chicken</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Side Dish Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/asian-green-bean-stir-fry.html">Asian Green Bean Stir-Fry</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/asian-pilaf.html">Asian Pilaf</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/avocado-and-mango-salsa.html">Avocado and Mango Salsa</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/baked-sweet-potato-wedges.html">Baked Sweet Potato Wedges</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/bok-choy-sauteed-mushrooms-shallots.html">Bok Choy with Sautéed Mushrooms and Shallots</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/braised-kale-black-beans-tomatoes.html">Braised Kale with Black Beans and Tomatoes</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/broccoli-hazelnuts.html">Broccoli with Hazelnuts</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/brussels-sprouts-pecans-dried-cranberries.html">Brussels Sprouts with Pecans and Dried Cranberries</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/butternut-squash-pilaf.html">Butternut Squash Pilaf</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/garlicky-greens.html">Garlicky Greens</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/honey-roasted-parsnips-sweet-potatoes-apples.html">Honey-Roasted Parsnips, Sweet Potatoes and Apples</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/lite-hummus-dip.html">Lite Hummus Dip</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/parmesan-orzo-primavera.html">Parmesan Orzo Primavera</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/peas-mushroom-pilaf.html">Peas-Mushroom Pilaf</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/quinoa-salad-roasted-autumn-vegetables.html">Quinoa Salad with Roasted Autumn Vegetables</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/seasoned-spinach-garlic.html">Seasoned Spinach with Garlic</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/simply-grilled-portobello-mushrooms.html">Simply Grilled Portobello Mushrooms</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spring-barley.html">Spring Barley</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/stir-fried-kale-slivered-carrots.html">Stir-Fried Kale with Slivered Carrots</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/summer-gazpacho.html">Summer Gazpacho</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/sweet-potato-power.html">Sweet Potato Power</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/tofu-fried-rice.html">Tofu Fried Rice</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/winter-caponata.html">Winter Caponata</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Dessert Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/apple-cranberry-cobbler.html">Apple Cranberry Cobbler</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/apple-crisp.html">Apple Crisp</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/apple-cranberry-crisp.html">Apple-Cranberry Crisp</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/baked-summer-fruit.html">Baked Summer Fruit</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/better-brownies.html">Better Brownies</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/blueberry-crumble-pie.html">Blueberry Crumble Pie</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cranberry-orange-fruit-bars.html">Cranberry-Orange Fruit Bars</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/crunchy-oat-apricot-bars.html">Crunchy Oat Apricot Bars</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/fresh-berry-sundaes.html">Fresh Berry Sundaes</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/fudge-brownie-sundaes.html">Fudge Brownie Sundaes</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/ginger-spice-biscotti.html">Ginger Spice Biscotti</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/grilled-fruit-strawberry-dip.html">Grilled Fruit with Strawberry Dip</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/grilled-peaches-honey-yogurt.html">Grilled Peaches with Honey and Yogurt</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/harvest-apples.html">Harvest Apples</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/lemon-cake.html">Lemon Cake</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/marbled-pumpkin-cheesecake.html">Marbled Pumpkin Cheesecake</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/melon-sorbet.html">Melon Sorbet</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pear-crisp.html">Pear Crisp</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pumpkin-bread.html">Pumpkin Bread</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/pumpkin-mousse.html">Pumpkin Mousse</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/raspberry-cinnamon-sorbet.html">Raspberry Cinnamon Sorbet</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/rhubarb-strawberry-parfaits.html">Rhubarb-Strawberry Parfaits</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/sliced-oranges-almonds-ginger.html">Sliced Oranges with Almonds and Ginger</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/summer-fruit-gratin.html">Summer Fruit Gratin</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/warm-chocolate-fantasy.html">Warm Chocolate Fantasy</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/yogurt-berry-brulee.html">Yogurt Berry Brûlée with Maple Almond Brittle</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> Shakes and Beverage Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/apple-pumpkin-shake.html">Apple Pumpkin Shake</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/avocado-melon-smoothie.html">Avocado and Melon Smoothie</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/banana-cinnamon-vanilla-shake.html">Banana Cinnamon Vanilla Shake</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/berry-blast-protein-shake.html">Berry Blast Protein Shake</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cinnamint-green-tea.html">Cinnamint Green Tea</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/cinnamon-hot-chocolate.html">Cinnamon Hot Chocolate</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/eggnog.html">Eggnog</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/green-tea-slush.html">Green Tea Slush</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/high-calorie-recipe-cinnamon-peach-smoothie.html">High Calorie Recipe: Cinnamon-Peach Smoothie</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/high-calorie-recipe-super-protein-power-smoothie.html">High Calorie Recipe: Super Protein Power Smoothie</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/hot-healthy-winter-teas.html">Hot and Healthy Winter Teas</a></li></ul></div>
+<div class="col-sm-4"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/juicing-recipes.html">Juicing Recipes</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/peach-apricot-dessert-smoothie.html">Peach Apricot Dessert Smoothie</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/sour-citrus-blast-smoothie.html">Sour Citrus Blast Smoothie</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/spiced-brazilian-mocha.html">Spiced Brazilian Mocha</a></li><li><a href="/medical-clinics/cancer-nutrition-services/recipes/tips-smoothies-shakes.html">Tips for Making Smoothies and Shakes</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> High-Calorie Snack Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-12"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/high-calorie-snacks.html">High-Calorie Snack Recipes</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="revealbox_expert parbase section">
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="reveal-box-expert expert_reveal_box " name="">
+        <div class="reveal-arrow-wrapper-expert expert-trigger">
+            <span class="reveal-arrow-expert"></span>
+        </div>
+        <div class="reveal-content-wrapper">
+            <div class="reveal-title-expert expert-trigger">
+                <span> High-Calorie Beverage Recipes</span>
+            </div>
+            
+            <div class="reveal-content-expert">
+                
+
+                
+
+                
+                <div class="revealboxparsys parsys"><div class="link_list parbase section">
+
+
+
+
+
+
+<div class="row">
+    <div class="text">
+        <div class="col-sm-12">
+            
+        
+        </div>
+    </div>
+    <div class="link-list">
+        <div class="col-sm-12"><ul><li><a href="/medical-clinics/cancer-nutrition-services/recipes/high-calorie-beverages.html">High-Calorie Beverage Recipes</a></li></ul></div>
+
+    </div>
+</div></div>
+
+</div>
+
+                
+                <div class="footNote_expert">   </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="forpatients parbase section">
+
+    
+
+
+
+<div id="for-patients_" class="embedded-anchor"></div>
+    
+        
+            <div class= 'for-patient-wrapper gray '>
+                    
+
+        
+            
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                
+                
+                
+                <h2 id="forpatients_" data-nav="For Patients" data-nav-show="true" class="scroll-adjust" class="scroll-adjust">For Patients</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                
+
+                
+                    
+                        <div class="referral-box-reference-par">
+                            <div class="text parbase">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <h4>PREPARE FOR YOUR APPOINTMENT</h4>
+<p>Review the <a href="/content/dam/SHC/for-patients-component/cancer/Stanford-Hospital-Cancer-Patient-Family-Resource-Guide.pdf" adhocenable="false" target="_blank">New Patient Packet</a> for information about:</p>
+<ul>
+<li>What to expect on the day of your appointment</li>
+<li>Maps, directions, parking, public transit options, and contact information</li>
+<li>Other patient resources</li>
+</ul>
+
+    </div>
+
+
+</div>
+
+                        </div>
+                    
+                
+
+
+                <p>Ask your physician for a REFERRAL for a Cancer Center Nutrition Appointment</p>
+<p>Our dietitians are available for 45 minute consults by appointment only, Monday – Friday from 8 a.m. – 4 p.m.</p>
+<p>Download our <a adhocenable="false" href="/content/dam/SHC/programs-services/cancer-nutrition/docs/nutrition-appointment-flyer.pdf" target="_blank">nutrition appointment flyer</a>.</p>
+
+
+                
+                <div class="revealbox-parsys parsys">
+</div>
+
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="cta-parsys parsys"><div class="ctabox parbase section">
+
+
+
+
+
+
+<div>
+    
+        
+            
+                <h2>Questions about your appointment or need to make a change?</h2>
+            
+            
+                
+                <div class="phone"><a href="tel:650-498-6000" class="phone-cta-link">650-498-6000</a></div>
+            
+        
+        
+    
+</div>
+
+
+
+</div>
+<div class="media_resources parbase section">
+
+
+
+
+<!--find out what styles we need to add-->
+
+
+    
+
+
+
+    
+    
+
+
+        
+
+        
+        
+        <div   class="clearfix media-resources noInfographic" style="margin:;  ">
+
+            <h4>DIRECTIONS</h4>
+            <div class="media-resources-parsys parsys"><div class="link parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+    
+    
+        <div class="">
+    
+
+    
+    
+    <div style="overflow: hidden;">
+        
+            
+            
+        
+
+
+        
+        
+        
+        
+        
+        
+
+        
+            
+                
+                
+                    
+                        
+                    
+                
+            
+            
+            
+            
+            
+            <div class="link-container">
+                    <strong><a href="/tools/maps/programs-services/nutrition-services-cancer-patients.html" class="open-modal   " alt="" data-modalcontainer=".location-page" associated-with="" clinic-name="" doctor-name="" organization="" care-type="">
+                    
+                    Nutrition Services for Cancer Patients at Stanford Cancer Center Palo Alto
+            </a></strong>
+            </div>
+        
+
+        
+    </div>
+</div>
+</div>
+<div class="link parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+    
+    
+        <div class="">
+    
+
+    
+    
+    <div style="overflow: hidden;">
+        
+
+
+        
+        
+        
+        
+        
+        
+
+        
+            
+                
+                
+                    
+                        
+                    
+                
+            
+            
+            
+            
+            
+            <div class="link-container">
+                    <a href="/tools/maps/clinics/nutrition-services-cancer-patients-stanford-cancer-center-south-bay.html" class="open-modal   " alt="" data-modalcontainer=".location-page" associated-with="" clinic-name="" doctor-name="" organization="" care-type="">
+                    
+                    Nutrition Services for Cancer Patients at Stanford Cancer Center South Bay
+            </a>
+            </div>
+        
+
+        
+    </div>
+</div>
+</div>
+
+</div>
+
+            
+        </div>
+    
+
+</div>
+<div class="media_resources parbase section">
+
+
+
+
+<!--find out what styles we need to add-->
+
+
+    
+
+
+
+    
+    
+
+
+        
+
+        
+        
+        <div   class="clearfix media-resources noInfographic" style="margin:;  ">
+
+            <h4>RESOURCES</h4>
+            <div class="media-resources-parsys parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <p><a href="/for-patients-visitors/billing.html">Billing and insurance</a></p>
+<p><a href="/content/dam/SHC/for-patients-component/cancer/Stanford-Hospital-Cancer-Patient-Family-Resource-Guide.pdf" target="_blank" adhocenable="false">Patient and Family Resource Guide</a></p>
+
+    </div>
+
+
+</div>
+
+</div>
+
+            
+        </div>
+    
+
+</div>
+
+</div>
+
+            </div>
+        </div>
+        </div>
+            </div>
+        
+        
+    </div>
+<div class="referral parbase section">
+
+
+
+<!-- referral taglib acts to verify the resource located at the path passed in, if the resource is valid, vettedPath will not be empty. -->
+
+<div id="referral_" class="embedded-anchor"></div>
+<div class="container" >
+    <div class="row">
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+
+            
+            
+            
+            
+
+            <h2 id="referrals_" data-nav="Referrals" data-nav-show="true" class="scroll-adjust" class="scroll-adjust">For Health Care Professionals </h2>
+
+            
+
+            <p>Our dietitians are available for 45 minute consults by appointment only on: Mondays – Friday, 8 a.m. – 4 p.m.</p>
+<h4>HOW TO REFER</h4>
+<p>Call us at 1-650-498-6000 to refer a new patient for a nutrition consultation. If you wish to refer a patient to the Stanford Cancer Center, please call the Physician Helpline.</p>
+
+
+            
+            <div class="revealbox-parsys parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <p>Download our <a href="/content/dam/SHC/programs-services/cancer-nutrition/docs/nutrition-appointment-flyer.pdf">nutrition appointment flyer</a>.</p>
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+            
+                
+                
+                    <div class="first-child">
+                        <div class="prism parbase">
+
+
+
+
+
+
+<div id="prism-box">
+    
+
+    
+    
+        <a href="https://prism.stanfordhealthcare.org/PRISM/Login/Login.aspx" class="prism-logo"></a>
+    
+    
+        
+            <div class="prism-box-reference-par">
+                <div class="text parbase">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <ul style="list-style-position: inside;">
+<li>Send referrals online</li>
+<li>View referral status</li>
+<li>Access medical records</li>
+</ul>
+<p><a adhocenable="false" href="/health-care-professionals/referring-physicians/prism.html">Learn More About PRISM »</a><a adhocenable="false" href="/health-care-professionals/referring-physicians/prism.html"></a></p>
+
+    </div>
+
+
+</div>
+
+            </div>
+        
+    
+    <div class="prism-content">
+        
+
+    </div>
+    
+    <div class="prism-footer">
+        <br>
+        <a target="_blank" href="https://prism.stanfordhealthcare.org/PRISM/Login/Login.aspx" class="btn" role="button">Log in to prism</a>
+    </div>
+</div></div>
+
+                    </div>
+                
+            
+
+        </div>
+    </div>
+</div></div>
+</div>
+</div>
+</div>
+
+    <div class="container">
+        <div class="bumper-iparsys custom_iparsys parsys">
+<div class="section"></div><div class="iparys_inherited"><div class="bumper-iparsys custom_iparsys parsys">
+
+</div>
+</div>
+
+
+</div>
+   
+    </div>
+    <div class="modal-appt-parsys iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="modal-appt-parsys iparsys parsys"><div class="appointment parbase section">
+
+
+
+
+
+
+
+
+
+<!--<a href="/content/shc/en/medical-clinics/stanford-brain-tumor-clinic.html" class="open-modal" data-modalcontainer=".make-an-appt" data="">click for modal</a>-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="make-an-appt">
+                <div class="make-an-appt-online">
+                    <div class="clearfix">
+                        <div class="make-an-appt-title">
+                            Make an Appointment
+                            <!--Ways to make an appointment at the Breast Cancer Program - Turlock-->
+                        </div>
+                        
+                        
+                        <div id="make-an-appt-login">
+                            <div class="make-an-appt-login-content">
+                                <div class="clearfix">
+                                    <h4>
+                                        Returning Patient 
+                                    </h4>
+                                    <span class="lock-icon"></span>
+                                    <span class="myhealth-logo"></span>
+                                </div>
+                                <!--[if IE 9 ]><div class="ie9"><![endif]-->
+                                <form autocomplete="off" method="post" action="https://myhealth.stanfordhealthcare.org/#/appointments/apptmake" id="loginForm" onsubmit="return doLogin('en-US/Images/yield.png');">
+                                    <input id="username" type="text" name="id" placeholder="Username" />
+                                    <input id ="password" type="password" name="password" placeholder="Password" />
+                                    <input
+                                     onclick="ga(gaName + '.send', 'event', 'button', 'click', 'Modal - Make An Appointment - Sign In');"
+                                     type="submit"
+                                     value="Sign In" />
+                                </form>
+                                 <!--[if IE 9 ]></div><![endif]-->
+                                <div class="forgot-user-id-password">
+                                    <a href="https://myhealth.stanfordhealthcare.org/Credentials/ForgotUsername">Forgot Username</a><span class= "place-holder-text">or</span><a href="https://myhealth.stanfordhealthcare.org/Credentials/ForgotPassword">Password?</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="make-an-appt-info">
+                            <div class="appt-info-parsys parsys"><div class="text parbase section">
+
+
+
+    
+    
+        <div class ="rte-has-anchor-link     ">
+    
+
+    <p>Questions about your appointment or need to make a change? Call:</p>
+
+    </div>
+
+
+</div>
+<div class="columns parbase section">
+
+
+
+
+<div class="container">
+    <div class="row ">
+        
+        
+        
+
+            
+
+            
+                <div class="col-sm-6">
+                    <div class="parsysleft parsys"><div class="phoneNumber parbase section">
+
+
+
+
+
+
+
+    
+
+
+    
+        
+        
+    
+    
+
+
+    
+    
+        <div class ="    ">
+            <p>Nutrition Services for Cancer Patients at Stanford Cancer Center Palo Alto<br>
+<strong><a href="tel://650-498-6000" class="phone-number-from-component     ">650-498-6000</a></strong></p>
+
+        </div>
+    
+</div>
+
+</div>
+
+                    <span class="column-border hidden-xs " style="height: px; top: px;"></span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="parsyscenter parsys"><div class="phoneNumber parbase section">
+
+
+
+
+
+
+
+    
+
+
+    
+        
+        
+    
+    
+
+
+    
+    
+        <div class ="    ">
+            <p>Nutrition Services for Cancer Patients at Stanford Cancer Center South Bay<br>
+<strong><a href="tel://408-426-4900" class="phone-number-from-component     ">408-426-4900</a></strong></p>
+
+        </div>
+    
+</div>
+
+</div>
+
+                </div>
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+    </div>
+</div>
+</div>
+
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+            
+
+
+
+
+
+<footer class="no-print" >
+    <div class="noindex">
+        <div class="fatfooter">
+
+
+
+
+
+
+
+<div id="checkBootStrapXS" class="hidden-xs"></div>
+<div id="checkBootStrapMD" class="hidden-md"></div>
+<div id="placemat" class="container">
+
+    <div class="row">
+        <div class="placemat-main-links col-md-3 col-sm-12 col-xs-12">
+            <div class="footerpar1 parsys"><div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/search-results.doctors.html" data-aa-footer-links="find a doctor">Find a Doctor</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/search-results.conditions.html" data-aa-footer-links="find conditions & treatments">Find Conditions & Treatments</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/search-results.clinics.html" data-aa-footer-links="find a stanford clinic">Find a Stanford clinic</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+
+</div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="footerpar2 parsys"><div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/for-patients-visitors.html" data-aa-footer-links="for patients & visitors">For Patients & Visitors</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/for-patients-visitors/billing.html" data-aa-footer-links="billing">Billing</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/for-patients-visitors/health-insurance-plans.html" data-aa-footer-links="insurance">Insurance</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/for-patients-visitors/hospital-check-in.html" data-aa-footer-links="hospital check-in">Hospital Check-in</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/about-us/contact.html" data-aa-footer-links="contact us">Contact Us</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/second-opinion/overview.html" data-aa-footer-links="get a second opinion">Get a Second Opinion</a>
+                        
+                    
+
+                </li>
+            
+        
+        
+            
+                <li><div id='lpLink'></div></li>
+            
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="http://medicalgiving.stanford.edu/" data-aa-footer-links="make a gift">Make a Gift</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/about-us.html" data-aa-footer-links="about us">About Us</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                            <a href="https://stanfordhealthcarequality.com/" target="_blank" data-aa-footer-links="quality & safety">Quality & Safety</a>
+                        
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/about-us/ceo-report.html" data-aa-footer-links="annual report">Annual Report</a>
+                        
+                    
+
+                </li>
+            
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/stanford-health-care-now.html" data-aa-footer-links="stanford health care now">Stanford Health Care Now</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+
+</div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="footerpar3 parsys"><div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/health-care-professionals.html" data-aa-footer-links="for healthcare professionals">For Healthcare Professionals</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/health-care-professionals/referring-physicians.html" data-aa-footer-links="referring physicians">Referring Physicians</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/health-care-professionals/nursing.html" data-aa-footer-links="nursing">Nursing</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="/health-care-professionals/allied-healthcare.html" data-aa-footer-links="allied healthcare professionals">Allied Healthcare Professionals</a>
+                        
+                    
+
+                </li>
+            
+        
+        
+    </ul>
+</div></div>
+<div class="link parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+
+    
+    
+        <div class="">
+    
+
+    
+    
+        
+    
+    <div style="margin:-20px 0px 20px 0px; overflow: hidden;">
+        
+
+
+        
+        
+        
+        
+        
+        
+
+        
+            
+                
+                
+                    
+                        
+                    
+                
+            
+            
+            
+            
+            
+            <div class="link-container">
+                    <a href="/tools/modals/first-responders.html" class="open-modal   " alt="" data-modalcontainer="#main-container" clinic-name="" doctor-name="">
+                    
+                    <a:hover style="color:#FFF">First Responders</a>
+            </a>
+            </div>
+        
+
+        
+    </div>
+</div>
+</div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/newsroom.html" data-aa-footer-links="newsroom">Newsroom</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                            <a href="https://www.stanfordhealthcarecareers.com/" target="_blank" data-aa-footer-links="careers">Careers</a>
+                        
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/for-patients-visitors/volunteering.html" data-aa-footer-links="volunteering">Volunteering</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="/for-vendors/vendors.html" data-aa-footer-links="vendors">Vendors</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+
+</div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="footerpar4 parsys"><div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    
+                        
+                        
+                            <a href="http://universityhealthcarealliance.org/" data-aa-footer-links="university healthcare alliance">University HealthCare Alliance</a>
+                        
+                    
+
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+                <li class="footer-list-header">
+                    <a href="http://www.valleycare.com/" data-aa-footer-links="stanford health care – valleycare">Stanford Health Care – ValleyCare</a>
+                </li>
+            
+            
+        
+        
+        
+    </ul>
+</div></div>
+<div class="horizontal_rule parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="horizontal-rule  " style="  " ></div></div>
+<div class="footer-list section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="bucket">
+    <ul>
+        
+            
+            
+                
+            
+        
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="http://med.stanford.edu/" data-aa-footer-links="stanford medicine">Stanford Medicine</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="http://www.stanfordchildrens.org/" data-aa-footer-links="stanford children's health">Stanford Children's Health</a>
+                        
+                    
+
+                </li>
+            
+        
+            
+            
+            
+                
+
+                <li>
+                    
+                        
+                        
+                            <a href="http://www.stanford.edu/" data-aa-footer-links="stanford university">Stanford University</a>
+                        
+                    
+
+                </li>
+            
+        
+        
+    </ul>
+</div></div>
+
+</div>
+
+            <div id="social" class="clearfix">
+                <a class="facebook" href="http://facebook.com/stanfordhealthcare" data-aa-footer-links="facebook"></a>
+                <a class="twitter" href="http://twitter.com/stanfordhealth" data-aa-footer-links="twitter"></a>
+                <a class="youtube" href="https://www.youtube.com/user/StanfordHospital" data-aa-footer-links="youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">           
+            <div id="copyright" class="clearfix">
+                <div class="logo-wrapper">
+                    <a class="stanford-med-logo" href="http://med.stanford.edu/" data-aa-footer-links="stanford medicine - logo"></a>
+                </div>
+                <ul class="clearfix">
+                    <li>
+                        
+                        <a href="/about-us/legal-disclaimer.html" data-aa-footer-links="legal">Legal</a>
+                    </li>
+                    <li>
+                        
+                        <a href="/for-patients-visitors/guest-services/patient-privacy.html" data-aa-footer-links="privacy">Privacy</a>
+                    </li>
+                    <li>
+                        
+                        <a href="/about-us/conduct.html" data-aa-footer-links="code of conduct">Code of Conduct</a>
+                    </li>
+                    
+                    <li class="last">
+                         <a href="https://stanfordhealthcare.org/about-us/notice-of-nondiscrimination.html" style="margin-left: -10px !important;" data-aa-footer-links="notice of nondiscrimination">|&nbsp;&nbsp;&nbsp;Notice of Nondiscrimination</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©2019 Stanford Health Care. All Rights Reserved
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="feedbackmodal parbase">
+
+
+<script type="text/javascript">
+<!--
+$(function () {
+    var initObject = {
+        "thankYouText": "Thank you for submitting your feedback.",
+        "serverDownText": "Sorry. The feedback system is not available at this time. Please send feedback to us directly at <a href='mailto:shcinternal@med.stanford.edu'>shcinternal@med.stanford.edu</a>.",
+        "submitFailedText": "We're experiencing trouble in submitting your feedback. Please send feedback to us directly at <a href='mailto:shcinternal@med.stanford.edu'>shcinternal@med.stanford.edu</a>.",
+        "mainHeader": "Provide Feedback",
+        "modalHeader": "QUESTIONS OR COMMENTS?",
+        "modalBody": "Do you have feedback about a specific page? Please use this form to submit the feedback that you may have."
+    };
+    var feedbackModal = new SHC.ui.FeedbackModal(".open-handlebar-modal", initObject);
+});
+//-->
+</script>
+</div>
+</div>
+
+        
+    </div>
+</footer>
+
+
+    
+
+
+<script type="text/javascript">
+    var GLOBAL_SPURL_OBJECT = "//sp1004f3b2.guided.ss-omtrdc.net";
+</script>
+
+        </div>
+        <div class="sidebar-offcanvas col-xs-12" id="sidebar" role="navigation">
+        
+        <div class="masthead_menu parbase">
+
+
+
+<div class="container">
+    <div class="row">
+        <div id="menu" class="static-menu">
+            <div class="menu-content noindex">
+                <div class="home-icon-container clearfix">
+                    <a id="menu-home-link" href="/" data-aa-sidebar-links="home">
+                        <span class="home-icon"></span>
+                        <span class="home-icon-label">Home</span>
+                    </a>
+                </div>
+                <a href="#" class="close-menu">Close</a>
+
+                <div id="menu-main-nav">
+                    
+                        
+                        
+                            
+                                <div class="masthead_menu_link parbase">
+                                    <a href="/search-results.doctors.html" data-aa-sidebar-links="doctors">Doctors</a>
+                                </div>
+                            
+                            
+                        
+                    
+                        
+                        
+                            
+                                <div class="masthead_menu_link parbase">
+                                    <a href="/search-results.clinics.html" data-aa-sidebar-links="clinics & locations">Clinics & Locations</a>
+                                </div>
+                            
+                            
+                        
+                    
+                        
+                        
+                            
+                                <div class="masthead_menu_link parbase">
+                                    <a href="/search-results.conditions.html" data-aa-sidebar-links="conditions & treatments">Conditions & Treatments</a>
+                                </div>
+                            
+                            
+                        
+                    
+                        
+                        
+                            
+                                <div class="masthead_menu_link parbase">
+                                    <a href="/search-results.trials.html" data-aa-sidebar-links="clinical trials">Clinical Trials</a>
+                                </div>
+                            
+                            
+                        
+                    
+                        
+                        
+                            
+                            
+                                <div class="masthead_menu_link parbase">
+                                    <a href="https://myhealth.stanfordhealthcare.org/" class="secondary-link" data-aa-sidebar-links="myhealth login">MyHealth Login</a>
+                                </div>
+                            
+                        
+                    
+                    
+                </div>
+                <div class="sidebar-shadow">
+                    <hr>
+                </div>
+                <div id="menu-secondary-nav">
+                    <div>
+                        
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/for-patients-visitors.html" data-aa-sidebar-links="patients & visitors">Patients & Visitors</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/for-patients-visitors/billing.html" data-aa-sidebar-links="patients & visitors:billing">Billing</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/for-patients-visitors/health-insurance-plans.html" data-aa-sidebar-links="patients & visitors:insurance">Insurance</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/for-patients-visitors/financial-assistance.html" data-aa-sidebar-links="patients & visitors:financial assistance">Financial Assistance</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/for-patients-visitors/medical-records.html" data-aa-sidebar-links="patients & visitors:medical records">Medical Records</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/about-us/contact.html" data-aa-sidebar-links="patients & visitors:contact us">Contact Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/second-opinion/overview.html" data-aa-sidebar-links="patients & visitors:get a second opinion">Get a Second Opinion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/health-care-professionals.html" data-aa-sidebar-links="healthcare professionals">Healthcare Professionals</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/health-care-professionals/referring-physicians.html" data-aa-sidebar-links="healthcare professionals:referring physicians">Referring Physicians</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/health-care-professionals/nursing.html" data-aa-sidebar-links="healthcare professionals:nursing">Nursing</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/health-care-professionals/allied-healthcare.html" data-aa-sidebar-links="healthcare professionals:allied healthcare">Allied Healthcare</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/about-us.html" data-aa-sidebar-links="about us">About Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                            
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox masthead_menu_sub_link">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="http://stanfordhealthcarequality.com/" data-aa-sidebar-links="about us:quality & safety">Quality & Safety</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                            
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="https://www.stanfordhealthcarecareers.com/" data-aa-sidebar-links="careers">Careers</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/newsroom.html" data-aa-sidebar-links="newsroom">Newsroom</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="http://medicalgiving.stanford.edu/" data-aa-sidebar-links="make a donation">Make a Donation</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                            
+                                
+                                
+                                    
+                                    <div class="parbase menu-my-health masthead_menu_revealbox">
+                                        <div class="masthead-menu-revealbox">
+                                            <div class="masthead-menu-revealTitleBar">
+                                                <a href="/stanford-health-care-now.html" data-aa-sidebar-links="stanford health care now">Stanford Health Care Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-bottom"></div>
+        </div>
+    </div>
+</div></div>
+
+        
+        </div>
+    </div>
+    <div id="presentation-mode" aria-hidden="true">
+        <div class="header">
+            <div class="close-container">
+                <div class="close" tabindex="0">Close</div>
+            </div>
+        </div>
+
+        <div class="presentation-content-wrapper">
+            <div class="presentation-content"></div>
+            <div class="presentation-footer"></div>
+        </div>
+    </div>
+    
+
+
+
+
+
+<!-- Google Tag Manager for Production -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PND43V"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PND43V');</script>
+<!-- End Google Tag Manager for Production -->
+
+    <script type="text/javascript">if (typeof _satellite !== 'undefined') { _satellite.pageBottom(); }</script>
+</body>
+</html>

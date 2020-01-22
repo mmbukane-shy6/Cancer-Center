@@ -1,0 +1,39 @@
+nav{
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    text-decoration-color: b;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 50px;
+    text-transform: uppercase;
+   
+}
+nav a{
+    text-decoration: none;
+}
+body{
+    background-image: url(https://bit.ly/2RB6XbM);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    background-color: blueviolet;
+    text-align: center;
+
+}
+#services{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
