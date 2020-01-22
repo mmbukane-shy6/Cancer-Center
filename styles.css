@@ -6,7 +6,7 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    text-decoration-color: b;
+    text-decoration-color: blue;
     margin-left: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -17,23 +17,67 @@ nav li{
 nav a{
     text-decoration: none;
 }
-body{
+/*body{
     background-image: url(https://bit.ly/2RB6XbM);
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1{
-    background-color: red;
-    padding: 20px;
+*/
+#heading{
     text-align: center;
-}
-h2{
-    background-color: blueviolet;
-    text-align: center;
+    color:dark black;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: blue;
+    border:1px solid;
+    box-shadow: black;
 
+}
+
+
+
+
+
+#home img{
+    height: 40em;
+    width: 100%;
+    opacity: 0.8;
+}
+h1{
+    font-family: 'Cabin', sans-serif;
+
+}
+h3{
+    font-family: 'Amarante', cursive;
+
+}
+h4{
+    font-size:20px;
+    
+}
+#about img{
+    height:25em;
+    width:100%;
+}
+#services img{
+    height:25em;
+    width:100%;
+}
+#about{
+    font-size: 18px;
 }
 #services{
-    display: flex;
-    flex-wrap: nowrap;
+    font-size: 18px;
+}
+#contacts{
+    text-align: center;
+    text-decoration: blue;
+    font-size: 18px;
 
 }
+body{
+    background-color: lightblue;
+}
+
+
+
