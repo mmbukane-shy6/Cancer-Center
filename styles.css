@@ -58,10 +58,14 @@ h4{
 #about img{
     height:25em;
     width:100%;
+    padding:right;
+    padding: left;
 }
 #services img{
     height:25em;
     width:100%;
+    padding: right;
+    padding: left;
 }
 #about{
     font-size: 18px;
@@ -81,3 +85,12 @@ body{
 
 
 
+.footer{
+    /* text-align: center; */
+    border: 3px solid pink ;
+    margin-right: 40%;
+    box-shadow: 5px 10px black;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+}
